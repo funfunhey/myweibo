@@ -1,0 +1,3 @@
+[ 2014-12-17T14:26:13+08:00 ] ::1 /weibo/index.php/Home/Discovery/findpeople.html
+ERR: 模板不存在:./weibo/Home/View/default/Discovery/findpeople.tpl
+

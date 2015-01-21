@@ -1,0 +1,391 @@
+ /*
+* @Author: anchen
+* @Date:   2014-12-19 17:33:23
+* @Last Modified by:   anchen
+* @Last Modified time: 2015-01-01 17:08:55
+*/
+body{
+    background-color:#bee1f5 ;
+    background-repeat: repeat-x;
+    background-image: url(../Images/bodyrepeat.png);
+}
+.miniblogblog{
+    background: url(../Images/body_bg.png) no-repeat center 0;
+}
+.miniblog{
+    padding-top: 12px;
+    background: url(../Images/footer.png) no-repeat center bottom;
+}
+.main{
+    background: url(../Images/repeat_bg_y.png) repeat-y ;
+    overflow: hidden;
+    width: 980px;
+    padding-top: 0;
+    min-height: 500px;
+    margin-bottom: 20px;
+}
+.main_l{
+    float: left;
+    width: 150px;
+}
+
+.forma{
+    margin-top:10px;
+    height: 22px;
+    padding: 0 0 6px 15px;
+}
+.forma legend{
+    line-height: 22px;
+    font-size: 12px;
+    padding: 1px 5px 0;
+}
+
+.level_l_box a{
+    display: block;
+    color:#333;
+    padding-left: 20px;
+    line-height: 35px;
+    height: 35px;
+    font-size: 14px;
+}
+.level_l_box a:hover{
+    background-color: #e6e6e6;
+}
+
+.level_l_box i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: -5px;
+    margin-right: 10px;
+}
+.myinfo{
+    background: url(../Images/account.png) no-repeat 0 0;
+}
+.myphoto{
+    background: url(../Images/account.png) no-repeat  0 -25px;
+}
+.mysafe{
+    background: url(../Images/account.png) no-repeat  0 -125px;
+}
+.mysecret{
+    background: url(../Images/account.png) no-repeat  0 -75px;
+}
+.mynews{
+    background: url(../Images/account.png) no-repeat  0 -100px;
+}
+.mypre{
+    background: url(../Images/account.png) no-repeat  0 -50px;
+}
+.myaccout{
+    background: url(../Images/account.png) no-repeat  0 -150px;
+}
+.mymedal{
+    background: url(../Images/account.png) no-repeat  0 -175px;
+}
+.nav_line{
+    margin-top: 10px;
+    padding: 0 0 6px 15px;
+    border:1px 0 0 0 ;
+    border-color: #d9d9d9;
+}
+
+
+
+
+/*右边开始*/
+.main_a{
+    width: 790px;
+    margin:0 20px;
+    float: left;
+}
+.bg4{
+    background-color: #fafafa;
+    min-height: 500px;
+    padding: 20px 0 50px;
+}
+.title {
+    padding-bottom: 8px;
+    border-bottom:2px solid #ea1429;
+    font-weight: 700;
+}
+.ratio,.p_bar,.title span{
+    display: inline;
+    font-size: 12px;
+    font-weight: normal;
+}
+.ratio{
+    margin-left: 10px;
+}
+.p_bar{
+    position: relative;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    padding: 1px;
+    width: 98px;
+    vertical-align: middle;
+    height: 12px;
+    display: inline-block;
+    background-color: #f3b94f;
+
+}
+
+.looklook{
+    float: right;
+    color: #0a8cd2;
+}
+.p_bar em{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    line-height: 13px;
+}
+
+
+/*下部*/
+.accout_event{
+    margin-top:10px;
+}
+.funbg{
+    margin-top: 10px;
+    border: 1px solid #D9D9D9;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+.funbg:hover{
+    background: #fafafa;
+}
+.funbg a{
+    color:  #0a8cd2;
+}
+.funbg ul{
+    padding: 0 20px;
+    line-height: 40px;
+}
+.abstractwhole{
+    display:none;
+}
+.funbg li{
+    float: left;
+    font-size: 12px;
+}
+.namename{
+    width: 204px;
+    font-weight: bold;
+}
+.contentcontent{
+    color: #808080;
+    width: 480px;
+}
+.options{
+    float: right;
+    width: 60px;
+    text-align: right;
+}
+
+/*photo*/
+.upload_avatar{
+    margin-top: 11px;
+    font-size: 12px;
+}
+.headimg{
+    float: left;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+.headimg img{
+    height: 180px;
+    width: 180px;
+}
+.headinfo{
+    float: left;
+    margin-left: 12px;
+}
+.upload{
+    line-height: 33px;
+}
+.upload span input{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    height: 28px;
+    padding: 0 0 0 2px;
+}
+.btn{
+    border-color: #d9d9d9;
+    background-color: #f2f2f2;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+}  
+.btn1{
+    padding: 0 9px 0 10px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    margin:0 5px;
+}
+
+.btn1 q{
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 20px;
+    line-height: 20px;
+}
+.btn1 input{
+    width: 50px;
+    vertical-align: middle;
+    white-space: nowrap;
+    line-height: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter:alpha(opacity=0);
+
+}
+q::before{
+    content: '';
+}
+.weizhi{
+    width: 196px;
+}
+.tips{
+    margin-bottom: 10px;
+    color: #808080;
+}
+.btna {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ff9b01;
+    background-color: #ffa00a;
+    color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btna span{
+    color: #fff;
+    padding:0 10px;
+    height: 18px;
+    line-height: 18px;
+    border:1px solid #ffb33b;    
+}
+.btna input{
+    position: absolute;
+    left: 0;
+    top:0;
+    cursor:pointer;
+    filter:alpha(opacity=0);
+    opacity: 0;
+}
+.relate{
+    position: relative;
+}
+/*photo*/
+/*右边结束*/
+
+/*下拉的*/
+.funbg>ul{
+    overflow: hidden;
+}
+.unfold>p{
+    margin-bottom: 17px;
+    color: #808080;
+}
+.acc_from>div{
+    height: 30px;
+    padding-bottom: 5px;
+    line-height: 30px;
+}
+.unfold{
+    padding:0 20px;
+    margin-bottom: 20px;
+}
+.tit,.inp{
+    float: left;
+}
+.inp{
+    margin-left: 20px;
+    width: 222px;
+}
+.inp1{
+    width: 196px;
+    height: 28px;
+    border:1px solid #ccc;
+    padding:0 0 0 2px ;
+}
+.tit{
+    width: 48px;
+    text-align: right;
+}
+.set{
+    margin:4px 0 0 10px;
+}
+.acc_from{
+    overflow: hidden;
+}
+.acc_from .lastlast{
+    height: 20px;
+   line-height: 20px;
+}
+.acc_from .btn-save a{
+    width: 45px;
+}
+.set a{
+    display: inline-block;
+    border:1px solid #d9d9d9;
+    background: #f2f2f5;
+    color:#333;
+     height: 20px;
+     vertical-align: middle;
+     line-height: 20px;
+}
+.set a span{
+    padding:0 9px 0 10px;
+    line-height: 18px;
+    height:18px;
+    display: inline-block;
+    border-radius: 2px;
+    border:1px solid #fff;
+
+}
+.set a span i{
+    margin-left: 10px;
+    width: 12px;
+    height: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.set a span i em{
+    margin:-7px 0 0 -2px;
+    line-height: 12px;
+    width: 12px;
+    font-size: 12px;
+}
+.inp label,.inp span,.inp select,.inp i{
+    margin-right: 10px;
+}
+.acc_from .lastarea {
+    height: 60px;
+}
+
+.acc_from .inp textarea{
+    width: 196px;
+    height: 48px;
+    /*overflow-y: auto;*/
+    overflow-x: hidden;
+    line-height: 18px;
+    padding: 5px 0 0 2px;
+    resize:none;
+}

@@ -1,0 +1,393 @@
+/* 
+* @Author: anchen
+* @Date:   2014-12-20 13:42:57
+* @Last Modified by:   anchen
+* @Last Modified time: 2015-01-13 19:49:35
+*/
+
+.userframe{
+    margin:0 auto;
+    padding-top: 16px;
+    width: 920px;
+}
+.userframea{
+    margin-right: 20px;
+    width: 920px;
+}
+.user-header{
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.headerpic{
+    position: absolute;
+    background: url(../Images/5.jpg) no-repeat bottom center;
+    width: 100%;
+    height: 300px;
+
+}
+.shadowphoto{
+    margin:48px auto 0;
+    border-radius: 50%;
+    border:4px solid rgba(255,255,255,0.3);
+    height: 100px;
+    width: 100px;
+}
+.shadowshadow{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    z-index: 2;
+}
+.shadowphoto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.shadowusername,.shadowinfo{
+    color: #fff;
+    margin-top: 6px;
+    text-align: center;
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+.shadowusername .icon{
+    margin-left: 5px;
+
+}
+.shadowusername i{
+    width: 16px;
+    height: 16px;
+}
+.icon-female{
+    background: url(../Images/icon1.png) no-repeat -125px -50px;
+}
+.official_nav{
+    background-color: #fff;
+    margin-bottom: 16px;
+}
+
+.plc_main{
+    width: 940px;
+}
+.frameb_l {
+    width: 300px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.frameb_l a{
+    color:#000;
+}
+.tab-user{
+    width: 60%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    margin:0 auto;
+    height: 40px;
+}
+.tab-user table{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:0;
+
+}
+.tab-user a{
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 38px;
+    overflow: hidden;
+    color: #000;
+}
+.card_wrap{
+    margin-bottom: 16px;
+}
+.fans_count .inner_wrap{
+    padding:12px 0;
+    width: 100%;
+    
+}
+.inner_wrap table{
+    margin-left: -1px;
+    line-height: 14px;
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+}
+.inner_wrap a{
+    display: block;
+}
+.inner_wrap strong{
+    display: block;
+    margin: 2px 0 6px 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+.inner_wrap table a span{
+    color: #808080;
+}
+.personinfo p{
+    margin-bottom: 7px;
+}
+
+.icon_group {
+    height: 28px;
+    padding-left: 10px;
+    line-height: 28px;
+    float: left;
+
+}
+.personinfo .clearfixs{
+    padding:16px;
+    border-bottom:1px solid #f2f2f5;
+}
+.personinfo .clearfix{
+    height: 28px;
+}
+.level{
+    background-color: #fd4d17;
+    width: 25px;
+    line-height: 14px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 0 0 0 3px;
+    padding: 0 5px 0 3px;
+}
+.level span{
+    color: #fff;
+    font-size: 12px;
+}
+.bars_box {
+    line-height: 23px
+}
+.bars_box span{
+    font-weight: 700;
+    font-size: 18px;
+}
+.bar_box{
+    height: 4px;
+    margin-top: 4px;
+    border-radius: 2px;
+    overflow: hidden;
+    background: #f2f2f5;
+}
+.bars{
+    background-image: -webkit-linear-gradient(left, #fb8b51 0%, #fa7d3c 100%);
+    background-image: -o-linear-gradient(left, #fb8b51 0%, #fa7d3c 100%);
+    background-image: linear-gradient(to right, #fb8b51 0%, #fa7d3c 100%);
+    width: 55%;
+    height: 4px;
+}
+.cardmore{
+    display: block;
+    line-height: 35px;
+    text-align: center;
+    border-top:1px solid #d9d9d9;
+    font-size: 12px;
+}
+.frame_c {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    margin-right: 20px;
+    margin-left: -5px;
+}
+.choose {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.choose-li{
+    display: block;
+}
+.b11{
+    width: 28px;
+}
+.bl .r{
+    width: 272px;
+}
+.arrow_bor1{
+    padding-left:28px;
+}
+.choose .pos1{
+    top:0;
+}
+.choose .pos1 a{
+    color: #696e78;
+}
+
+/*focus部分*/
+.focuspart{
+    background: #fff;
+    margin-bottom: 10px;
+
+}
+.focuspart>div{
+    margin:1px;
+}
+.focuspart a{
+    display: block;
+}
+.focuspart span{
+    font-size: 12px;
+}
+.level1{
+    border-top:1px solid #f2f2f5;
+}
+.level1:hover{
+    background: #f2f2f5;
+}
+.somelist1>a>span{ 
+    color: #76a513;
+    font-size: 14px;
+
+}
+.somelist1>a{
+    background: #f2f2f5; 
+       padding:10px 14px 10px 14px;
+}
+.level1>a>span{
+    font-size: 14px;
+}
+.level1>a{
+    padding:10px 14px 10px 14px;
+}
+.focuspart .f,.focuspart .h{
+    margin-right: 3px;
+}
+.level2{
+    margin-left: 37px;
+}
+.level2 a{
+    margin:7px 0;
+}
+.level2 a:hover{
+    color: #76a513;
+}
+.level2 a:hover .f,.somelist1>a>em{
+    color: #eb7350;
+}
+.relation {
+    margin-right: 20px;
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+    margin-left: -5px;
+    font-size: 12px;
+}
+.cardwrap{
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.member_box,.member_box  ul{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.opt_choose{
+    border-bottom: 1px solid #f2f2f5;
+}
+.opt_choose>div{
+    padding: 0 6px;
+}
+.opt_choose .f14{
+    padding:7px 0;
+    margin: 0 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+.opt_bar{
+    padding:6px 16px;
+}
+.opt_bar .txt1{
+    margin-right: 20px;
+}
+.member_box li{
+    padding: 16px 0 16px 16px;
+    margin:6px 0  0 6px;
+    float: left;
+    width: 274px;
+    background: #f2f2f5;
+}
+.cardpage{
+        border-top: 1px solid #d9d9d9;
+}
+.minibox .title .fw{
+    color: #333;
+}
+.info_from a{
+    color: #76a513;
+}
+.subtitle {
+    height: 15px;
+}
+.info_from {
+    margin-bottom: 3px;
+}
+.btn_b{
+    padding:0 10px;
+    margin-right: 6px;
+    width: 62px;
+    border:1px solid #d9d9d9;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+    height: 24px;
+    display: inline-block;
+    background: #fff;
+    text-align: center;
+    line-height: 25px;
+
+}
+.minibox{
+    padding: 0;
+    height: 110px;
+}
+.picwrap{
+    height: 108px;
+}
+.picwrap>p{
+    overflow: hidden;
+    margin-top: 19px;
+}
+.status{
+    margin: 3px;
+}
+.btn_c{
+    height: 24px;
+    line-height: 24px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    display: inline-block;
+    width: 24px;
+    margin-right: 6px;
+    text-align: center;
+}
+.cardpage{
+    padding:6px 0;
+    vertical-align: middle;
+    text-align: center;
+
+}
+.cardpage a{
+    display: inline-block;
+    height: 26px;
+
+    line-height: 26px;
+}
+.page_dis{
+    width: 100px;
+    margin-right: 20px;
+}
+.page_cis{
+    width: 100px;
+    margin-left: 20px;
+}
+.page_s{
+    padding:0 8px;
+    margin: 0 5px;
+}
+/*focus部分*/

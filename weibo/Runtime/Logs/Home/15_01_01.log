@@ -1,0 +1,292 @@
+[ 2015-01-01T08:41:25+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (5,8,'2015-01-01 08:41:24',1) [ RunTime:0.039001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T08:41:31+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.014001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (5,9,'2015-01-01 08:41:30',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T08:42:02+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (5,7,'2015-01-01 08:42:01',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T08:42:04+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (5,10,'2015-01-01 08:42:03',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T08:42:16+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (5,13,'2015-01-01 08:42:15',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-01T08:43:55+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (13,25,'2015-01-01 08:43:54',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-01T08:43:57+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (13,7,'2015-01-01 08:43:56',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-01T08:43:59+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.014001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (13,5,'2015-01-01 08:43:58',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T08:44:00+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (13,8,'2015-01-01 08:43:58',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T08:44:38+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.014001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (13,9,'2015-01-01 08:44:37',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T10:09:21+08:00 ] ::1 /weibo/index.php/Home/set/settings.html
+ERR: XML标签语法错误 : start=1 end=12 
+
+[ 2015-01-01T14:11:44+08:00 ] ::1 /weibo/index.php/Home/User/userfans.html)
+ERR: 非法操作:userfans.html)
+
+[ 2015-01-01T14:12:21+08:00 ] ::1 /weibo/index.php/Home/User/userfans.html)
+ERR: 非法操作:userfans.html)
+
+[ 2015-01-01T16:21:52+08:00 ] ::1 /weibo/index.php/Home/User/userfans.html
+ERR: XML标签语法错误
+
+[ 2015-01-01T16:34:34+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (19,18,'2015-01-01 16:34:33',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T16:34:36+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (19,7,'2015-01-01 16:34:35',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-01T16:34:38+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (19,5,'2015-01-01 16:34:37',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T16:34:40+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (19,9,'2015-01-01 16:34:38',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T16:34:46+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (19,16,'2015-01-01 16:34:45',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T16:34:51+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.024001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (19,15,'2015-01-01 16:34:50',1) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T16:34:58+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.019001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (19,14,'2015-01-01 16:34:56',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T16:35:04+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.012000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (19,14,'2015-01-01 16:35:03',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-01T16:35:16+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.017000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (19,10,'2015-01-01 16:35:15',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T16:35:21+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.019001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (19,17,'2015-01-01 16:35:20',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T16:50:00+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2015-01-01 16:49:59',19,'在台湾有一对喵汪星人在火车站流浪，有个网友刚好路过，看到它们可怜样子，有点於心不忍，便买了些食物给它们，还帮它们拍了张照片上传到网路，希望在火车站附近的网友有空也帮帮它们。结果几天後，另一网友去帮它们做了个简单的家，让它们好一点过冬，又有网友拿食物给它们。大家接力帮忙心暖暖哒',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T17:40:47+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (281,19,'2015-01-01 17:40:46','哈哈哈') [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T17:46:06+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE think_content [ RunTime:0.018000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (254,19,'2015-01-01 17:46:05','恩恩，晚安') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T17:47:02+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (254,19,'2015-01-01 17:47:01','么么哒') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T17:49:30+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.017001s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (254,19,'2015-01-01 17:49:29','么么么') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T17:50:35+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (254,19,'2015-01-01 17:50:34','呀呼') [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-01T19:41:32+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 287 [ RunTime:0.019000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-01T19:41:39+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_content [ RunTime:0.017000s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 288 [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

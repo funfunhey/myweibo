@@ -1,0 +1,783 @@
+[ 2014-12-27T15:42:04+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.020001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666124) [ RunTime:0.031001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:42:04+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030001s ]
+
+[ 2014-12-27T15:42:05+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.018001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666125) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:42:06+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'g',1419666126) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-27T15:42:07+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.019001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666127) [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-27T15:42:08+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.024000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'gu',1419666128) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-12-27T15:42:11+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.010000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666131) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-27T15:42:12+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.018001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'gu',1419666132) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-12-27T15:42:13+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666133) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T15:42:14+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.019000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'guo',1419666134) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-27T15:42:15+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.010000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666135) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T15:42:17+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'guo',1419666137) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T15:42:18+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.014001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'guo',1419666138) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-27T15:42:19+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666139) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T15:42:20+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.018000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666140) [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-12-27T15:42:21+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.013001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'gu',1419666141) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T15:42:22+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.027001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'gu',1419666142) [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:42:23+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.011000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666143) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-27T15:42:24+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.010001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'g',1419666144) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-27T15:42:26+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.019000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666146) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-27T15:42:27+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.020001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666147) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:42:28+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.012001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666148) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T15:42:29+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.009001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666149) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-27T15:42:30+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.019000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'哈哈',1419666150) [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:42:31+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.019001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666151) [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:42:33+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'ha\'h',1419666153) [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T15:42:34+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'哈哈，tian',1419666154) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T15:42:35+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.010000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'哈哈，tian\'xia',1419666155) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2014-12-27T15:42:36+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'哈哈，ti',1419666156) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-12-27T15:42:37+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666157) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:42:39+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666159) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-12-27T15:42:40+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.010001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'哈哈，天下杀毒be',1419666160) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-27T15:53:33+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.017001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666813) [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:53:34+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'哈哈',1419666814) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:53:35+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666815) [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:53:36+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666816) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T15:53:37+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.017001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666817) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:53:38+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666818) [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:53:41+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666821) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T15:53:42+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666822) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:53:44+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.018001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666824) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T15:53:45+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.011001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666825) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-27T15:53:46+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.008001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666826) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T15:53:47+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419666827) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T16:03:21+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667401) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T16:03:23+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'哈哈',1419667403) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-27T16:03:24+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667404) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-12-27T16:03:25+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.018001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667405) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T16:03:26+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.028001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667406) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T16:03:27+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.018001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667407) [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-27T16:03:29+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667409) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T16:03:31+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.011000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667411) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-12-27T16:10:14+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'哈哈',1419667814) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T16:10:15+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667815) [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T16:10:16+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667816) [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T16:10:17+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667817) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T16:10:18+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667818) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-27T16:10:20+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667820) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T16:10:22+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.019001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667822) [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T16:10:23+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.017000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667823) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T16:11:14+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.026000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667874) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-12-27T16:11:16+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'哈哈',1419667876) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-27T16:11:17+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.011000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667877) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2014-12-27T16:11:18+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.023001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667878) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T16:11:19+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667879) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T16:11:20+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.036001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667880) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2014-12-27T16:11:23+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.008000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667883) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-27T16:11:24+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.018001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (0,'contentvalue',1419667884) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-27T16:11:58+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.014001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`,`date`) VALUES (239,'啊啊',1419667918) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T16:14:41+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.017001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`) VALUES (239,'aa') [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T16:14:42+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.052001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`) VALUES (239,'aa') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T16:15:52+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.017001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`) VALUES (239,'不许重复') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T21:18:26+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.019000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`) VALUES (239,'都流氓') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T21:32:18+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.019001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`) VALUES (239,'欢迎吐槽') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-27T21:33:40+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.018000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`) VALUES (239,'你投谁一票') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-12-27T21:33:42+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`) VALUES (239,'你投谁一票') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-27T21:33:46+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`) VALUES (239,'你投谁一票') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-27T22:36:29+08:00 ] ::1 /weibo/index.php/Home/User/index/id/9.html
+ERR: XML标签语法错误 : condition = isset({$vo.pcontent})
+
+[ 2014-12-27T22:38:58+08:00 ] ::1 /weibo/index.php/Home/User/index/id/9.html
+ERR: XML标签语法错误 : name={$vo.pcontent}
+
+[ 2014-12-27T22:44:35+08:00 ] ::1 /weibo/index.php/Home/User/index/id/9.html
+ERR: XML标签语法错误 : name={$vo.pcontent} 
+
+[ 2014-12-27T22:45:30+08:00 ] ::1 /weibo/index.php/Home/User/index/id/9.html
+ERR: XML标签语法错误 : name={$vo.pcontent} 
+
+[ 2014-12-27T22:46:40+08:00 ] ::1 /weibo/index.php/Home/User/index/id/9.html
+ERR: XML标签语法错误 : name={$vo.content} 
+

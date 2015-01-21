@@ -1,0 +1,647 @@
+[ 2014-12-24T10:18:44+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: DESCRIBE think_friend [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (12,23,'2014-12-24 10:18:43',1) [ RunTime:0.027001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T10:18:46+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (12,22,'2014-12-24 10:18:45',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2014-12-24T10:18:48+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (12,24,'2014-12-24 10:18:46',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-24T10:18:49+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (12,25,'2014-12-24 10:18:48',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T10:34:16+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (12,2,'2014-12-24 10:34:15',1) [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T10:43:35+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: DESCRIBE think_content [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-24 10:43:34',12,'') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-24T11:16:11+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:17:12+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:18:52+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:20:16+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:20:15',12,'嗷嗷嗷啊','0') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:21:01+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:21:00',12,'','') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:21:02+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014001s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+
+[ 2014-12-24T11:26:44+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+NOTIC: [8] Undefined variable: filename D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 126 行.
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:26:43',12,'',null) [ RunTime:0.001000s ]
+ERR: 1048:Column 'position' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:26:43',12,'',null)
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:26:46+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE think_content [ RunTime:0.010000s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+
+[ 2014-12-24T11:28:48+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.017000s ]
+NOTIC: [8] Undefined variable: filename D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 125 行.
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:28:47',12,'alert(length);',null) [ RunTime:0.002000s ]
+ERR: 1048:Column 'position' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:28:47',12,'alert(length);',null)
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-12-24T11:33:00+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-12-24T11:34:54+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-12-24T11:35:57+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016000s ]
+NOTIC: [8] Undefined variable: filename D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 120 行.
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:35:55',12,'啊啊啊啊啊啊啊啊',null) [ RunTime:0.001000s ]
+ERR: 1048:Column 'position' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:35:55',12,'啊啊啊啊啊啊啊啊',null)
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:36:49+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:36:48',12,'嗷嗷嗷',null) [ RunTime:0.001000s ]
+ERR: 1048:Column 'position' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:36:48',12,'嗷嗷嗷',null)
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:39:07+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:39:06',12,'alert(length);',null) [ RunTime:0.001000s ]
+ERR: 1048:Column 'position' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:39:06',12,'alert(length);',null)
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:42:20+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:42:19',12,'vv',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:47:31+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE think_content [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:47:30',12,'',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:47:32+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+
+[ 2014-12-24T11:48:45+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.017001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:48:44',12,'',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:48:46+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015600s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+
+[ 2014-12-24T11:50:23+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:50:22',12,'嗷嗷嗷啊',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:52:09+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:52:08',12,'啊啊啊啊啊',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:53:47+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:53:46',12,'',0) [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:53:49+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+
+[ 2014-12-24T11:54:40+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:54:39',12,'嗷嗷嗷',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-24T11:55:05+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.017000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 11:55:04',12,'',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T11:55:07+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+
+[ 2014-12-24T12:02:22+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE think_content [ RunTime:0.014001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:02:21',12,'啊啊',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T12:02:44+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:02:43',12,'啊啊',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T12:05:13+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.019000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:05:12',12,'啊啊啊啊啊啊',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T12:05:30+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:05:29',12,'啊啊啊啊啊啊',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T12:06:01+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:06:00',12,'嗷嗷嗷啊',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T12:09:04+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:09:03',12,'',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T12:09:05+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+
+[ 2014-12-24T12:12:26+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:12:25',12,'',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T12:12:27+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+
+[ 2014-12-24T12:13:48+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.008000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:13:47',12,'',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-12-24T12:17:44+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:17:43',12,'',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T12:17:45+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:17:44',12,'啊啊',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T12:54:59+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.018001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:54:58',12,'',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T12:55:00+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:54:59',12,'啊啊',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-24T12:57:29+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017000s ]
+SQL: DESCRIBE think_content [ RunTime:0.020000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:57:28',12,'',0) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-12-24T12:57:30+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:57:29',12,'啊啊啊啊啊啊啊',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T12:58:38+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:58:37',12,'',0) [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T12:58:39+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014001s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 12:58:38',12,'啊啊啊啊啊',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T13:00:52+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-24T13:00:53+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-24T13:02:16+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-24T13:02:17+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-24T13:02:49+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+
+[ 2014-12-24T13:04:13+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 13:04:12',12,'',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T13:04:14+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T13:05:00+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 13:04:59',12,'嗷嗷嗷',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T13:05:14+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 13:05:13',12,'',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T13:05:16+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014001s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T13:09:43+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 13:09:42',12,'',0) [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T13:09:44+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.020000s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T13:10:22+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE think_content [ RunTime:0.018000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 13:10:21',12,'',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-24T13:10:23+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+NOTIC: [8] Undefined variable: file D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 105 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T17:39:39+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-24 17:39:38',8,'为测试王超智商，我今天给他出了道题：“189，如何重新排列这三个，使得出来的数字比现在这个数字更小？” 我就料他答不出，便给他摆成-98。 只见他摇摇头，摆出9-∞，说：“9减正无穷。',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T17:42:21+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (8,25,'2014-12-24 17:42:20',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-24T17:42:24+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (8,21,'2014-12-24 17:42:23',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-24T17:42:26+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (8,1,'2014-12-24 17:42:25',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-24T17:42:27+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (8,4,'2014-12-24 17:42:26',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-12-24T17:42:28+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.017000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (8,3,'2014-12-24 17:42:27',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

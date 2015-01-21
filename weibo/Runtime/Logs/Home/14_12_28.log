@@ -1,0 +1,138 @@
+[ 2014-12-28T09:35:51+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`) VALUES (239,'杀毒软件本身就是一种病毒') [ RunTime:0.031001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-28T09:35:53+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`) VALUES (239,'杀毒软件本身就是一种病毒') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-28T09:47:09+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_repost [ RunTime:0.017001s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`) VALUES (239,'再试试') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-28T09:48:26+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: DESCRIBE think_repost [ RunTime:0.010000s ]
+SQL: INSERT INTO `think_repost` (`cid`,`content`) VALUES (239,'自从装了这软件，应该没有比这更慢的时候了') [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-28T14:58:25+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (7,25,'2014-12-28 14:58:24',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-28T14:58:26+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.018000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (7,24,'2014-12-28 14:58:25',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-12-28T14:58:28+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.017000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (7,5,'2014-12-28 14:58:27',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2014-12-28T14:58:30+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (7,8,'2014-12-28 14:58:29',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-12-28T15:00:45+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.021001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-28 15:00:44',7,'外国的一个程序员用相机每隔10秒钟拍摄一张图片，一共拍摄了4000多张，连续记录了他一天12小时的编程生活。从视频中你可以看到，这个程序员一会儿编程，一会儿看电影，一会儿打游戏。工作娱乐两不误。哈哈， 国内的码农是不是要哭晕了[doge][喵喵]http://t.cn/zWptvEZ',0) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-28T17:44:41+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+
+[ 2014-12-28T17:45:48+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-28 17:45:46',7,'【Javascript中最常用的55个经典技巧】http://t.cn/RPmoASN JavaScript 是属于网络的脚本语言！被数百万计的网页用来改进设计、验证表单、检测浏览器、创建cookies，以及更多的应用。是因特网上最流行的脚本语言。',0) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-28T17:48:04+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022001s ]
+SQL: DESCRIBE think_content [ RunTime:0.020000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (245,7,'2014-12-28 17:48:03','马') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-12-28T21:07:59+08:00 ] ::1 /weibo/index.php/Home/User/index/id/7.html
+ERR: Think\Model:alia方法不存在！
+
+[ 2014-12-28T22:44:50+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE think_content [ RunTime:0.040001s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (246,7,'2014-12-28 22:44:49','get') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-28T22:44:51+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (246,7,'2014-12-28 22:44:49','get') [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+

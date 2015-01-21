@@ -1,0 +1,60 @@
+[ 2014-12-26T14:16:52+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.018001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-26 14:16:51',24,'【男子转卖旧物 不料猫咪被夹其中一齐出售】美国《纽约每日新闻》12月24日报道，美国俄勒冈州的男子罗伊•杜费克在帮女友海莉•克鲁斯处理旧床垫时，错将女友养了5年的爱猫也一同“打包”卖掉，因为不知道猫咪平时就喜欢窝在弹簧箱内打盹。目前小喵还木有找到。http://t.cn/RZhbIPJ',0) [ RunTime:0.037001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-26T19:28:28+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-26 19:28:27',9,'【调查：那些年，我们“被”安装的安全软件！】互联网安全界正上演着悄无声息的撕逼大战。一边是信息泄露，一边是恶意竞争。在你的桌面上，有没有杀毒软件悄悄进驻？欢迎参加新浪科技的调查',0) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-12-26T22:08:52+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (9,25,'2014-12-26 22:08:51',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-26T22:08:56+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (9,6,'2014-12-26 22:08:55',1) [ RunTime:0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-26T22:09:06+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.017001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (9,7,'2014-12-26 22:09:05',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-26T22:09:11+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.008000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (9,8,'2014-12-26 22:09:10',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+

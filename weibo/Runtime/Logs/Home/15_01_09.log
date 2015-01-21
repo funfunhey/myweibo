@@ -1,0 +1,1181 @@
+[ 2015-01-09T09:21:21+08:00 ] ::1 /weibo/index.php/Home/Common/checkVerify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T09:21:24+08:00 ] ::1 /weibo/index.php/Home/Common/checkVerify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T09:26:58+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (26,25,'2015-01-09 09:26:57',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-09T09:27:00+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: DESCRIBE think_friend [ RunTime:0.017001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (26,24,'2015-01-09 09:26:59',1) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-09T09:27:01+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (26,19,'2015-01-09 09:27:00',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T09:27:02+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.020001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (26,18,'2015-01-09 09:27:01',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T09:27:04+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (26,7,'2015-01-09 09:27:03',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T09:27:05+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.017000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (26,5,'2015-01-09 09:27:04',1) [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T09:27:07+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (26,8,'2015-01-09 09:27:06',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-01-09T09:27:13+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (26,10,'2015-01-09 09:27:12',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T09:27:15+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.018000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (26,9,'2015-01-09 09:27:14',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2015-01-09T09:27:17+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (26,17,'2015-01-09 09:27:16',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T09:27:19+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.011001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (26,14,'2015-01-09 09:27:17',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-09T09:27:20+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (26,15,'2015-01-09 09:27:19',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-09T09:44:22+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.016001s ]
+SQL: DESCRIBE think_user [ RunTime:0.017000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=285 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T09:44:28+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.015001s ]
+SQL: DESCRIBE think_user [ RunTime:0.017000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=284 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-01-09T09:44:34+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.015000s ]
+SQL: DESCRIBE think_user [ RunTime:0.016001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=283 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T09:44:48+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: DESCRIBE think_comment [ RunTime:0.016001s ]
+SQL: DESCRIBE think_user [ RunTime:0.016000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=285 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T10:11:23+08:00 ] ::1 /weibo/index.php/Home/Common//addabstract
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_user [ RunTime:0.017001s ]
+SQL: INSERT INTO `think_user` (`production`) VALUES ('') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T10:20:14+08:00 ] ::1 /weibo/index.php/Home/Common//addabstract
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_user [ RunTime:0.018001s ]
+SQL: UPDATE `think_user` SET `production`='我是sufeilei' WHERE `id` = 26 [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T10:54:44+08:00 ] ::1 /weibo/index.php/Home/Common//addabstract
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_user [ RunTime:0.017001s ]
+SQL: UPDATE `think_user` SET `production`='hello，我叫苏芙蕾' WHERE `id` = 26 [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T11:36:11+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.027001s ]
+SQL: DESCRIBE think_user [ RunTime:0.019001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=325 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T11:53:02+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.018000s ]
+SQL: DESCRIBE think_user [ RunTime:0.018001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=270 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.009000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 230 行.
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-09T11:53:11+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T12:06:09+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.018001s ]
+SQL: DESCRIBE think_user [ RunTime:0.018001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T12:11:36+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.016000s ]
+SQL: DESCRIBE think_user [ RunTime:0.017001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T12:15:51+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.018001s ]
+SQL: DESCRIBE think_user [ RunTime:0.017000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T12:16:15+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.016001s ]
+SQL: DESCRIBE think_user [ RunTime:0.016000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=283 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-01-09T12:19:21+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.020001s ]
+SQL: DESCRIBE think_user [ RunTime:0.019000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=283 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T12:19:57+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.017001s ]
+SQL: DESCRIBE think_user [ RunTime:0.018000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=283 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-01-09T12:20:41+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.019001s ]
+SQL: DESCRIBE think_user [ RunTime:0.017000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=284 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T12:21:45+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.018000s ]
+SQL: DESCRIBE think_user [ RunTime:0.018001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=283 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T19:11:41+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.012001s ]
+SQL: DESCRIBE think_user [ RunTime:0.012000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T19:13:33+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.010000s ]
+SQL: DESCRIBE think_user [ RunTime:0.076003s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T19:13:43+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.010000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=286 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:14:58+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.012001s ]
+SQL: DESCRIBE think_user [ RunTime:0.014000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=286 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T19:15:33+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.009001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=286 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T19:16:13+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.011000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=289 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T19:23:59+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.010001s ]
+SQL: DESCRIBE think_user [ RunTime:0.012000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=286 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:25:53+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.016001s ]
+SQL: DESCRIBE think_user [ RunTime:0.025001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=285 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:26:30+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.010001s ]
+SQL: DESCRIBE think_user [ RunTime:0.009000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=285 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:29:13+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.014000s ]
+SQL: DESCRIBE think_user [ RunTime:0.012000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=285 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T19:30:04+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=286 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:31:42+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.016000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:33:06+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.010001s ]
+SQL: DESCRIBE think_user [ RunTime:0.017000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-01-09T19:35:22+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009001s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T19:35:48+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.012001s ]
+SQL: DESCRIBE think_user [ RunTime:0.016000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:36:28+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-01-09T19:37:55+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.013001s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:41:45+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:42:18+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.008001s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=271 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 230 行.
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:42:20+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.015000s ]
+SQL: DESCRIBE think_user [ RunTime:0.016001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:45:36+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:47:38+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.010001s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T19:48:45+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.014001s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T19:50:35+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.016000s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:32:03+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.009001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:33:30+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=286 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T21:34:11+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.012000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=286 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:35:38+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.015000s ]
+SQL: DESCRIBE think_user [ RunTime:0.016001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:36:16+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.015000s ]
+SQL: DESCRIBE think_user [ RunTime:0.014000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T21:37:41+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.013000s ]
+SQL: DESCRIBE think_user [ RunTime:0.012001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:39:30+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.008000s ]
+SQL: DESCRIBE think_user [ RunTime:0.009000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=283 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:39:32+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.016000s ]
+SQL: DESCRIBE think_user [ RunTime:0.012001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=283 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T21:39:57+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.014001s ]
+SQL: DESCRIBE think_user [ RunTime:0.009000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=283 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:42:36+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.014000s ]
+SQL: DESCRIBE think_user [ RunTime:0.015001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:45:52+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:48:18+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.014000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:50:29+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.010000s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:51:51+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:53:59+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.012001s ]
+SQL: DESCRIBE think_user [ RunTime:0.018000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:54:44+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.017001s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T21:55:29+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.009001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T21:56:28+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: DESCRIBE think_comment [ RunTime:0.012000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:02:58+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.013000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T22:07:05+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.010000s ]
+SQL: DESCRIBE think_user [ RunTime:0.013001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:12:34+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.011001s ]
+SQL: DESCRIBE think_user [ RunTime:0.013000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T22:14:32+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.015000s ]
+SQL: DESCRIBE think_user [ RunTime:0.016001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T22:14:40+08:00 ] ::1 /weibo/index.php/Home/Common//addcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_comment` (`comment`,`cid`,`uid`,`toid`) VALUES ('回复@酸辣排骨:',281,26,24) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T22:16:29+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.014001s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:16:39+08:00 ] ::1 /weibo/index.php/Home/Common//addcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_comment` (`comment`,`cid`,`uid`,`toid`) VALUES ('回复@酸辣排骨:',281,26,24) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-01-09T22:17:34+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:18:25+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.015001s ]
+SQL: DESCRIBE think_user [ RunTime:0.016000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:19:07+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.016001s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T22:19:16+08:00 ] ::1 /weibo/index.php/Home/Common//addcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.014001s ]
+SQL: INSERT INTO `think_comment` (`comment`,`cid`,`uid`,`toid`) VALUES ('回复@酸辣排骨:hello',281,26,23) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T22:27:27+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.015000s ]
+SQL: DESCRIBE think_user [ RunTime:0.013000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=283 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-01-09T22:29:33+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.014001s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:30:21+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.016001s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T22:30:26+08:00 ] ::1 /weibo/index.php/Home/Common//addcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.012000s ]
+SQL: INSERT INTO `think_comment` (`comment`,`cid`,`uid`) VALUES ('html3 = \'&lt;div class=&quot;succfix boxstyle&quot;&gt; &lt;em class=&quot;successsmall&quot;&gt;&lt;/em&gt; &lt;span&gt;评论成功&lt;/span&gt; &lt;/div&gt;\';
+                                                textareas.append(html3);',281,26) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T22:31:22+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=289 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T22:32:15+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.011001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=286 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:33:56+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.010000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=285 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:35:58+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.011000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=284 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T22:37:33+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.010000s ]
+SQL: DESCRIBE think_user [ RunTime:0.015001s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=283 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-09T22:38:04+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.017001s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:40:14+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:42:16+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.010001s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:43:21+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.016001s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:43:43+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009001s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:50:13+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.015000s ]
+SQL: DESCRIBE think_user [ RunTime:0.016000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:51:10+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.012000s ]
+SQL: DESCRIBE think_user [ RunTime:0.015000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=283 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-09T22:52:36+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.010001s ]
+SQL: DESCRIBE think_user [ RunTime:0.012000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=281 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

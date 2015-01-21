@@ -1,0 +1,849 @@
+[ 2014-12-21T11:02:32+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 11:02:31',25,'dd') [ RunTime:0.029000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T11:08:33+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 11:08:32',25,'暖水瓶碎裂的声音不绝于耳，其中还夹杂着人群兴奋而粗鲁的喘息和低吼，打头的男生声嘶力竭地喊着号子：“丢他妈的同志们！斗争！”这是一个发生在容易让人躁动的夏天的故事，让小编想起了时刻打着鸡血对抗权威的大学时代。今日文章《西建大革命事件始末》，作者：@老K乔治') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T11:10:12+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 11:10:11',25,'日本厂商推出了丈夫/妻子型全比例抱枕，一家日本公司另辟蹊径，推出了没有面部特征真人大小和形状的“身体”枕头，这家公司将产品定义为“孤独者的伴侣”。你要是喜欢Cosplay，他/她也应该能一起，售价大概500多人民币。[doge]你觉的你需要吗？') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T11:11:41+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 11:11:40',25,'日本厂商推出了丈夫/妻子型全比例抱枕，一家日本公司另辟蹊径，推出了没有面部特征真人大小和形状的“身体”枕头，这家公司将产品定义为“孤独者的伴侣”。你要是喜欢Cosplay，他/她也应该能一起，售价大概500多人民币。[doge]你觉的你需要吗？') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T13:56:20+08:00 ] ::1 /weibo/index.php/Home/Set
+ERR: 非法操作:index
+
+[ 2014-12-21T13:59:31+08:00 ] ::1 /weibo/index.php/Home/Set
+ERR: 非法操作:index
+
+[ 2014-12-21T14:09:54+08:00 ] ::1 /weibo/index.php/Home/Set/Set/setphoto
+ERR: 非法操作:Set
+
+[ 2014-12-21T14:11:40+08:00 ] ::1 /weibo/index.php/Home/Set/Set/setphoto
+ERR: 非法操作:Set
+
+[ 2014-12-21T14:11:43+08:00 ] ::1 /weibo/index.php/Home/Set/Set/setphoto
+ERR: 非法操作:Set
+
+[ 2014-12-21T14:12:08+08:00 ] ::1 /weibo/index.php/Home/Set/Set/setphoto
+ERR: 非法操作:Set
+
+[ 2014-12-21T14:12:11+08:00 ] ::1 /weibo/index.php/Home/Set/Set/setphoto
+ERR: 非法操作:Set
+
+[ 2014-12-21T15:05:08+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:07:23+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:08:00+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:08:34+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:09:56+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:10:32+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:10:33+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:11:06+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:12:00+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:17:19+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:30:13+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:31:02+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:31:28+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:32:03+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T15:36:20+08:00 ] ::1 /weibo/index.php/Home/Set/uploadimg.html
+ERR: 不存在的图像文件
+
+[ 2014-12-21T17:35:43+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (15,25,'2014-12-21 17:35:42',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T17:35:44+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.014001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (15,24,'2014-12-21 17:35:43',1) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T17:35:46+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (15,23,'2014-12-21 17:35:45',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T17:35:48+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (15,22,'2014-12-21 17:35:47',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T17:35:56+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.008000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (15,17,'2014-12-21 17:35:55',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T17:35:57+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.013000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (15,21,'2014-12-21 17:35:56',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T17:36:22+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (15,19,'2014-12-21 17:36:21',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T17:41:25+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T17:41:33+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: DESCRIBE think_content [ RunTime:0.017001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T17:41:38+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T17:41:39+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T17:41:41+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE think_content [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T17:42:57+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 17:42:56',15,'【完美风暴阻止恒星在超大黑洞周围形成】超大质量的黑洞可以驱动高能喷流，使得形成恒星的物质通通退散。天文学家发现，NGC 1266星系中心有个不太大的超大黑洞，它在周围的致密气体中吹起了一场“完美风暴”，使得那里的气体无法平静，阻止了该星系中新恒星的诞生。') [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T17:44:51+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 17:44:50',15,'【完美风暴阻止恒星在超大黑洞周围形成】超大质量的黑洞可以驱动高能喷流，使得形成恒星的物质通通退散。天文学家发现，NGC 1266星系中心有个不太大的超大黑洞，它在周围的致密气体中吹起了一场“完美风暴”，使得那里的气体无法平静，阻止了该星系中新恒星的诞生。') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T17:49:16+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T17:49:26+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T17:49:59+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T17:52:32+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 17:52:31',15,'秋阳熙暖的午后，我坐在窗边，捧着心怡的茶杯，但觉心怡神荡，通体轻盈，思维乘着阳光的金丝，飘然远举。原本零敲散打，琐碎无杂的世界，忽而变得平滑完整，游目四顾，于是看的更加开阔清楚。——《茶之书》') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T17:53:45+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 17:53:44',15,'feipang') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T17:54:06+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.009001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 17:54:05',15,'我没有什么新鲜事') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T17:54:41+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 17:54:40',15,'奇怪饿') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T17:55:19+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 17:55:18',15,'youxi') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T17:55:30+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 17:55:29',15,'tupian') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T17:55:43+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 17:55:42',15,'新鲜事') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T17:58:55+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 17:58:54',15,'g') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:02:10+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:02:09',15,'【就是这么简单 人人都能用的10条网站易用性技巧】有了这十条技巧再也不担心人家说我的网站难用了呢，真是棒棒呆！赶紧围观学起来，围观请戳这里→http://t.cn/8sktJaw') [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:04:02+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:04:01',15,'【眼前一亮！18个国际范儿十足的网站着陆页设计】要撑起一个优秀的着陆页，除了视觉效果的统一性，一个流弊的文案也至关重要。今天为大家收集了一些值得称道的网站着陆页设计，如果你在这方面没有经验，可以向它们学习一下哟！更多精彩请戳→http://t.cn/8seJ8VD') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:08:11+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.008000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:08:10',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T18:08:23+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:08:22',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T18:08:24+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:08:22',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:08:25+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:08:22',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T18:08:26+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:08:22',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:08:27+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.010001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:08:23',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:08:28+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:08:23',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:12:57+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:12:56',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T18:12:59+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:12:57',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T18:13:00+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:12:57',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:13:01+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:12:57',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:16:19+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:16:18',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T18:16:21+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:16:18',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:16:22+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.010000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:16:19',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T18:16:23+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.011000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:16:19',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:16:24+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.010001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:16:19',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T18:16:44+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:16:43',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:17:24+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:17:23',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T18:17:29+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:17:28',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T18:17:30+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:17:28',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T18:20:32+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.010000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:20:31',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T18:20:38+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.013001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:20:32',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:20:47+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.029001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:20:46',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T18:24:44+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:24:42',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:24:45+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:24:43',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:24:56+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:24:55',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T18:24:57+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:24:56',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T18:24:58+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.010001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:24:56',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T18:25:00+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 18:24:56',15,'#技术分享# 【基于HTML5/Javascrip的游戏开发框架Phaser】http://t.cn/RPlIMVE Phaser是一个开源的HTML5游戏框架，也就是传说中100行代码之内搞定Flappy Bird的神器，通过这个框架我们可以很容易地开发桌面和移动的小游戏。目前Phaser的最新版本是2.0.7，它同时支持WebGL和Canvas。') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T19:13:47+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE think_content [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 19:13:46',15,'说嘛好') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T19:26:52+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 19:26:51',15,'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T22:24:12+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:24:11',15,'background-color: #87a840;') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T22:24:13+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:24:12',15,'background-color: #87a840;') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T22:24:14+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.008001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:24:12',15,'background-color: #87a840;') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T22:24:16+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:24:12',15,'background-color: #87a840;') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T22:24:17+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.010001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:24:12',15,'background-color: #87a840;') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T22:27:51+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:27:50',15,'background-color: #87a840;background-color: #87a840;') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T22:37:55+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE think_content [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:37:54',15,'带王超出差，在振华快餐吃饭，看到经理崔建波在，我对王超说：“崔经理你没见过吧，是我们振华餐饮第一人。”王超上去一脚踹翻崔经理，说：“振华餐饮敌人！见一个打一个！”') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T22:42:24+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:42:23',15,'【明日#冬至#】①22日7时3分，冬至，从这天起开始“进九”，步入严寒季节；②古说：阴极之至，阳气始生，日南至，日短之至，日影长之至，故曰冬至；③北方有吃饺子习俗，“冬至不端饺子碗，冻掉耳朵没人管”；④“今年冬令补，明年可打虎”，可吃羊肉进补。冬至，天气极寒，别忘问候年迈的父母') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-12-21T22:43:42+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE think_content [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:43:41',15,'【明日#冬至#】①22日7时3分，冬至，从这天起开始“进九”，步入严寒季节；②古说：阴极之至，阳气始生，日南至，日短之至，日影长之至，故曰冬至；③北方有吃饺子习俗，“冬至不端饺子碗，冻掉耳朵没人管”；④“今年冬令补，明年可打虎”，可吃羊肉进补。冬至，天气极寒，别忘问候年迈的父母。转') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T22:49:59+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:49:58',15,'【明日#冬至#】①22日7时3分，冬至，从这天起开始“进九”，步入严寒季节；②古说：阴极之至，阳气始生，日南至，日短之至，日影长之至，故曰冬至；③北方有吃饺子习俗，“冬至不端饺子碗，冻掉耳朵没人管”；④“今年冬令补，明年可打虎”，可吃羊肉进补。冬至，天气极寒，别忘问候年迈的父母。转起！') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-21T22:50:48+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.010000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:50:47',15,'【明日#冬至#】①22日7时3分，冬至，从这天起开始“进九”，步入严寒季节；②古说：阴极之至，阳气始生，日南至，日短之至，日影长之至，故曰冬至；③北方有吃饺子习俗，“冬至不端饺子碗，冻掉耳朵没人管”；④“今年冬令补，明年可打虎”，可吃羊肉进补。冬至，天气极寒，别忘问候年迈的父母。转起！') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T22:51:06+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:51:05',15,'【明日#冬至#】①22日7时3分，冬至，从这天起开始“进九”，步入严寒季节；②古说：阴极之至，阳气始生，日南至，日短之至，日影长之至，故曰冬至；③北方有吃饺子习俗，“冬至不端饺子碗，冻掉耳朵没人管”；④“今年冬令补，明年可打虎”，可吃羊肉进补。冬至，天气极寒，别忘问候年迈的父母。') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T22:54:24+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:54:23',15,'【明日#冬至#】①22日7时3分，冬至，从这天起开始“进九”，步入严寒季节；②古说：阴极之至，阳气始生，日南至，日短之至，日影长之至，故曰冬至；③北方有吃饺子习俗，“冬至不端饺子碗，冻掉耳朵没人管”；④“今年冬令补，明年可打虎”，可吃羊肉进补。冬至，天气极寒，别忘问候年迈的父母。') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2014-12-21T22:55:38+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`) VALUES ('2014-12-21 22:55:37',15,'【明日#冬至#】①22日7时3分，冬至，从这天起开始“进九”，步入严寒季节；②古说：阴极之至，阳气始生，日南至，日短之至，日影长之至，故曰冬至；③北方有吃饺子习俗，“冬至不端饺子碗，冻掉耳朵没人管”；④“今年冬令补，明年可打虎”，可吃羊肉进补。冬至，天气极寒，别忘问候年迈的父母。转起！') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T22:57:16+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T22:58:39+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T23:00:12+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T23:00:43+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+NOTIC: [8] Undefined variable: is_numeric D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 99 行.
+
+[ 2014-12-21T23:01:57+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.017001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

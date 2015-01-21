@@ -1,0 +1,333 @@
+[ 2014-12-30T09:34:29+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.081002s ]
+SQL: DESCRIBE think_content [ RunTime:0.010000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (30,25,'2014-12-30 09:34:26','马') [ RunTime:0.024001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-30T09:34:58+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.012000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (258,25,'2014-12-30 09:34:56','我也觉得') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T09:47:00+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.053002s ]
+SQL: DESCRIBE think_content [ RunTime:0.012001s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (30,25,'2014-12-30 09:46:59','好看') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-30T09:47:01+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.010000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (14,25,'2014-12-30 09:46:59','好看') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T09:47:02+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (30,25,'2014-12-30 09:46:59','好看') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T09:47:03+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (258,25,'2014-12-30 09:46:59','好看') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-30T09:47:04+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: DESCRIBE think_content [ RunTime:0.010000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (30,25,'2014-12-30 09:46:59','好看') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-30T09:56:21+08:00 ] ::1 /weibo/index.php/Home/Common/content/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_content` (`date`,`uid`,`content`,`position`) VALUES ('2014-12-30 09:56:20',25,'【柯南20周年动画特别篇：江户川柯南失踪事件~史上最惨的两天】为纪念《名侦探柯南》漫画连载20周年而制作的2小时电视动画特别篇，讲述江户川柯南在洗澡时遭遇传闻中的杀手组织，却在滑倒后失忆，被神秘人物带走的故事。12-26上映，今天凌晨A站刚出，豆瓣8.4分',0) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T09:58:26+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018000s ]
+SQL: DESCRIBE think_content [ RunTime:0.013000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (269,25,'2014-12-30 09:58:24','激动') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T09:58:58+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: DESCRIBE think_content [ RunTime:0.014001s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 265 [ RunTime:0.033001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T09:59:07+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.047002s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 264 [ RunTime:0.014000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T09:59:28+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.011000s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 266 [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-30T10:16:13+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.038001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039001s ]
+SQL: DESCRIBE think_content [ RunTime:0.020001s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (269,25,'2014-12-30 10:16:12','怒转') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-30T10:16:14+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE think_content [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (269,25,'2014-12-30 10:16:13','怒转') [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T10:16:15+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.018000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (269,25,'2014-12-30 10:16:14','怒转') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-30T10:16:29+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE think_content [ RunTime:0.016000s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 273 [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T10:16:34+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.014001s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 272 [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-30T10:18:40+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016001s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (269,25,'2014-12-30 10:18:39','啊') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T10:18:41+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.011000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (269,25,'2014-12-30 10:18:40','啊') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-30T10:23:53+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (269,25,'2014-12-30 10:23:52','啊') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T10:24:46+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.011000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (269,25,'2014-12-30 10:24:44','啊啊') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T10:24:47+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (258,25,'2014-12-30 10:24:45','啊啊') [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T10:25:13+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.018001s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 278 [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T10:25:19+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.011001s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 277 [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-30T10:25:25+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.012001s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 276 [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-30T10:25:30+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.013000s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 275 [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-30T10:25:35+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.012001s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 274 [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-30T11:13:12+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.013000s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (258,25,'2014-12-30 11:13:11','啊') [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-30T11:13:13+08:00 ] ::1 /weibo/index.php/Home/Common//addrepost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_content` (`cid`,`uid`,`date`,`content`) VALUES (30,25,'2014-12-30 11:13:11','啊') [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T11:27:15+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015000s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 279 [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T11:29:02+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.011000s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 280 [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T11:29:24+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_content [ RunTime:0.015001s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 267 [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-30T11:29:50+08:00 ] ::1 /weibo/index.php/Home/Common//deletecontent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE think_content [ RunTime:0.010000s ]
+SQL: DELETE FROM `think_content` WHERE `id` = 268 [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-30T22:23:14+08:00 ] ::1 /weibo/index.php/Home/User/userfocus.html
+ERR: XML标签语法错误
+

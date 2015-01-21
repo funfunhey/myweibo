@@ -1,0 +1,163 @@
+[ 2014-12-20T12:53:36+08:00 ] ::1 /weibo/index.php/Home/Common/checkVerify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-20T12:53:36+08:00 ] ::1 /weibo/index.php/Home/Common/checkVerify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-20T12:53:41+08:00 ] ::1 /weibo/index.php/Home/Common/checkVerify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-20T12:53:41+08:00 ] ::1 /weibo/index.php/Home/Common/checkVerify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-20T12:53:44+08:00 ] ::1 /weibo/index.php/Home/Common/checkVerify/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-20T12:58:03+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 非法操作:index
+
+[ 2014-12-20T12:58:29+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 非法操作:index
+
+[ 2014-12-20T12:58:53+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T12:59:17+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T12:59:19+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T12:59:32+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:00:07+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:00:08+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:00:09+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:00:37+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:00:38+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:00:39+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:04:44+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:05:03+08:00 ] ::1 /weibo/index.php/Home/User
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:05:05+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:05:19+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:11:05+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:11:06+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:11:07+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:12:16+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:12:17+08:00 ] ::1 /weibo/index.php/Home/User/index/id/25.html
+ERR: 模板不存在:./weibo/Home/View/default/User/index.tpl
+
+[ 2014-12-20T13:25:08+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (25,21,'2014-12-20 13:25:07',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-20T13:25:11+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (25,22,'2014-12-20 13:25:10',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-20T13:25:14+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.014000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (25,24,'2014-12-20 13:25:13',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-20T13:25:17+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (25,23,'2014-12-20 13:25:16',1) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-20T13:25:26+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (25,17,'2014-12-20 13:25:25',1) [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-20T13:25:27+08:00 ] ::1 /weibo/index.php/Home/Common/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.017000s ]
+SQL: INSERT INTO `think_friend` (`fromuser`,`touser`,`date`,`state`) VALUES (25,19,'2014-12-20 13:25:26',1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+

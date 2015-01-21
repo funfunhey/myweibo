@@ -1,0 +1,48 @@
+@charset "utf-8";
+.superpage {
+	margin-bottom: 10px;
+}
+.pages {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.list {
+	line-height: 24px;
+	word-spacing: normal;
+	display: inline-block;
+	height: 24px;
+	position: relative;
+	font-family: "微软雅黑", Arial;
+}
+.pagelist {
+}
+.list1 {
+}
+a {
+	text-decoration: none;
+}
+a {
+	color: #333;
+	font-family: "微软雅黑", Arial;
+}
+.superpage {
+	font-family: "微软雅黑", Arial;
+}
+.superpage .pages a {
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-right: 8px;
+	padding-left: 8px;
+	font-family: "微软雅黑", Arial;
+}
+div {
+	display: block;
+}
+.superpage .pages .list a {
+	font-size: 12px;
+	color: #333;
+}
