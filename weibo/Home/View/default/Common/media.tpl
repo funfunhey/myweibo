@@ -40,9 +40,11 @@
         </div>
         <div class="bigimgdiv overf">
             <ul>
-                <li>
+                <li >
                     <div class="artwork">
-                        <img src="__PUBLIC__/Images/5.jpg" alt="" width="440" />                       
+                        <div class="imgspan">
+                              <img src="" id="" alt="" width="440" />                       
+                        </div>
                     </div>
                 </li>
             </ul>
@@ -53,26 +55,7 @@
             </a>
             <div class="stage_box">
                 <ul class="picchoose">
-                    <li>
-                        <a href="javascript:void(0)">
-                            <img src="__PUBLIC__/Images/0.jpg" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">
-                            <img src="__PUBLIC__/Images/0.jpg" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">
-                            <img src="__PUBLIC__/Images/0.jpg" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">
-                            <img src="__PUBLIC__/Images/0.jpg" alt="" />
-                        </a>
-                    </li>
+                  
                 </ul>
             </div>
             <a href="javascript:void(0)" class="curright bg2">

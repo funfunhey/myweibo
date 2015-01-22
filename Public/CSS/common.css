@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2014-12-12 16:46:14
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-01-21 08:20:30
+* @Last Modified time: 2015-01-21 21:15:14
 */
 @font-face {
     font-family:'yahei';
@@ -687,8 +687,6 @@ div{
 }
 .photo_box li{
     min-width: 36px;
-    max-width: 120px;
-    max-height: 120px;
     width:80px;
     height:80px;
     margin:6px 0 0 6px;
@@ -702,6 +700,11 @@ div{
     width:80px;
     height:80px;
 }
+.photo_box1 li img,.photo_box1 li{
+   max-width:120px;
+    max-height:120px;
+}
+
 /*右边*/
 .WB_main_r a{
     color: #333;
@@ -797,7 +800,7 @@ div{
     color: #fa7d3c;
 }
 .highlight{
-    background: #ff8140;;
+    background: #ff8140;
 }
 .pink{
     background: #ffc09f;
@@ -2281,9 +2284,15 @@ span.ico{
     border: 1px solid #f2f2f5;
 }
 /*media*/
-.rotatea{
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
+.rightcursor{
+    cursor: url(../Images/pic_next.cur),auto;
+}
+.leftcursor{
+    cursor: url(../Images/pic_prev.cur),auto;
+}
+.smallcursor{
+    cursor: url(../Images/small.cur),auto;
+}
+.colorline{
+    border :1px solid #ff8140;
 }

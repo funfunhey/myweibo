@@ -44,6 +44,7 @@ class IndexController extends Controller {
             };
             if ($value['position'] !== 0) {
                 $contentinput[$key]['filename'] = filename($value['uid'],$value['position']);
+                 $contentinput[$key]['filenamecount'] = count($contentinput[$key]['filename']);
             }
             $contentinput[$key]['content'] = facelook($contentinput[$key]['content'],__ROOT__,__MODULE__);
             // 评论数

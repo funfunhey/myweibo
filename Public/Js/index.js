@@ -412,6 +412,10 @@ $('.forrepost').unbind('click').click( function(event) {
         $('#background').show();
     }
 
+    // function cursor(obj){
+    //     obj.parent()
+    // }
+
     // 转发内容表情处理
     function facelook(txt) {
         var reg = /<img src="\/weibo\/Public\/Images\/biaoqing\/(.*?).gif" alt="图片">/g;
