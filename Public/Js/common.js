@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2014-12-19 17:00:51
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-01-21 12:11:22
+* @Last Modified time: 2015-01-21 22:23:06
 */
 
 $(function(){
@@ -24,21 +24,139 @@ $(function(){
            }            
         })
     }
-    $.each($('.photo_box '), function(index, val) {
+    //单张图片点击效果
+    $.each($('.photo_box1 li '), function(index, val) {
         var _this = $(this);
         _this.off('click').on('click', function(event) {
             var detail = _this.closest('.WB_detail');
-            _this.append('<i class="loadingb"></i>');
-            _this.closest('.WB_photo_list').hide();
-            detail.find('.expand_media').show();
-            $('.shouqi').off('click').on('click', function(event) {
-                detail.find('.expand_media').hide();
-                _this.closest('.WB_photo_list').show();
-             });
+            var detail_ex_me =  detail.find('.expand_media');
+            var wpl = _this.closest('.WB_photo_list');
             var artworkimg = detail.find('.artwork img');
-            $('.rotatel').on('click',  function(event) {
-                console.log(artworkimg[0]);
-                rotate(artworkimg[0],90);
+            var asrc = _this.find('img').attr('asrc');
+            var clickid = _this.find('img').attr('fid').substring(0,13);
+            var html = '';
+
+            _this.append('<i class="loadingb"></i>');
+            wpl.hide();
+            detail_ex_me.show();
+            artworkimg.attr('src',asrc);
+            detail_ex_me.find('.pic_choose').hide();
+            detail.find('.shouqi').off('click').on('click', function(event) {
+               detail_ex_me.hide();
+                wpl.show();
+                _this[0].removeChild($('.loadingb')[0]);
+             });
+
+            var artworkid = _this.attr('src');
+            var angle = 90;
+            $('.rotatel').off('click').on('click',  function(event) {
+                artworkimg.attr('id',clickid);
+                rotate(artworkimg.attr('id'),angle==undefined?-90:-angle);
+            });
+            $('.rotater').off('click').on('click',  function(event) {
+                artworkimg.attr('id',clickid);
+                rotate(artworkimg.attr('id'),angle==undefined?90:angle);
+            });
+            // $.load(ROOT+'Uploads/' ,function(){
+
+            // })
+        });
+    });
+//多图显示效果 
+    $.each($('.photo_box li'), function(index, val) {
+        $(this).off('click').on('click', function(event) {
+            var _this = $(this);
+            var detail = _this.closest('.WB_detail');
+            var detail_ex_me =  detail.find('.expand_media');
+            var wpl = _this.closest('.WB_photo_list');
+            var artworkimg = detail.find('.artwork img');
+            var asrc = _this.find('img').attr('asrc');
+            var clickid = _this.find('img').attr('fid').substring(0,13);
+            var html = '';
+            var imgindex = index ; 
+            var totallength = _this.parent().children('li').length;
+
+            var toimg = _this.parent();
+            //console.log(index);
+            //添加下面的缩略图
+            $.each(detail.find('.photo_box li img'), function(index1, val1) {
+                html +='<li > <a href="javascript:void(0)"> <img src='+detail.find('.photo_box li img').eq(index1).attr('src')+' alt="" /> </a> </li>';  
+            });
+             detail.find('.picchoose ').html(html);
+             detail.find('.picchoose li').eq(imgindex).find('a').addClass('colorline');
+
+            _this.append('<i class="loadingb"></i>');
+            wpl.hide();
+            detail_ex_me.show();
+            artworkimg.attr('src',asrc);
+            //收起功能
+            detail.find('.shouqi').off('click').on('click', function(event) {
+               detail_ex_me.hide();
+                wpl.show();
+                _this[0].removeChild($('.loadingb')[0]);
+             });
+
+             //下一张和上一张
+        artworkimg.off('mousemove').on('mousemove',function(event6) {
+                // console.log(event6.pageX);
+            var wzx = event6.pageX - getX(artworkimg[0]);
+            var wzy = event6.pageY - getY(artworkimg[0]);         
+            var nextli = _this.nextAll('li').length;
+            var prevli = _this.prevAll('li').length;
+
+               if(wzy){
+                    if(wzx){
+                        if(wzx<140  && prevli !== 0){
+                           
+                             artworkimg.off('click').on('click', function(event) {
+                                if (imgindex <= 0){
+                                     artworkimg.removeClass();
+                                }else{
+                                    imgindex += -1;                                   
+                                    artworkimg.attr('src',toimg.find('li').eq(imgindex).find('img').attr('asrc'));
+                                    detail.find('.picchoose li a').removeClass('colorline');
+                                    detail.find('.picchoose li').eq(imgindex).find('a').addClass('colorline');
+                                }
+                               
+                            });
+                             imgindex >0 ? artworkimg.removeClass().addClass('leftcursor') : artworkimg.removeClass();
+
+                        }else if(wzx>300 && nextli !== 0){
+                           
+                             artworkimg.off('click').on('click', function(event) { 
+                                 
+                                if (imgindex >= totallength-1){
+                                     artworkimg.removeClass();
+                                }else{
+                                    imgindex += 1;
+                                    artworkimg.attr('src',toimg.find('li').eq(imgindex).find('img').attr('asrc'));
+                                    detail.find('.picchoose li a').removeClass('colorline');
+                                    detail.find('.picchoose li').eq(imgindex).find('a').addClass('colorline');
+                                }                         
+                            });
+                             imgindex < totallength -1 ? artworkimg.removeClass().addClass('rightcursor') : artworkimg.removeClass();  
+                        }else if(wzx>140 && wzx<300){
+                            artworkimg.removeClass().addClass('smallcursor');
+                            artworkimg.off('click').on('click', function(event) {
+                                    detail_ex_me.hide();
+                                    wpl.show();
+                                    _this[0].removeChild($('.loadingb')[0]);
+
+                            });
+                        }
+                    }
+               }   
+            });
+
+            var artworkid = _this.attr('src');
+            var angle = 90;
+            $('.rotatel').off('click').on('click',  function(event) {
+                artworkimg.attr('id',clickid);
+                rotate(artworkimg.attr('id'),angle==undefined?-90:-angle);
+            });
+            $('.rotater').off('click').on('click',  function(event) {
+                artworkimg.attr('id',clickid);
+                rotate(artworkimg.attr('id'),angle==undefined?90:angle);
             });
             // $.load(ROOT+'Uploads/' ,function(){
 
@@ -342,7 +460,7 @@ askat(0,0,0);
     };
 
     function rotate(id,angle,whence) { 
-    var p = id; 
+    var p = document.getElementById(id); 
 
     // we store the angle inside the image tag for persistence 
     if (!whence) { 
@@ -394,9 +512,25 @@ askat(0,0,0);
     context.drawImage(canvas.oImage, 0, 0, canvas.oImage.width, canvas.oImage.height); 
     context.restore(); 
     } 
-    //canvas = p; 
+    canvas.id = p.id; 
     canvas.angle = p.angle; 
+    canvas.style.width = 440;
     p.parentNode.replaceChild(canvas, p); 
     } 
-
+function getX(obj){ 
+    var parObj=obj; 
+    var left=obj.offsetLeft; 
+    while(parObj=parObj.offsetParent){ 
+    left+=parObj.offsetLeft; 
+    } 
+    return left; 
+} 
+function getY(obj){ 
+    var parObj=obj; 
+    var top=obj.offsetTop; 
+    while(parObj = parObj.offsetParent){ 
+    top+=parObj.offsetTop; 
+    } 
+    return top; 
+}
 
