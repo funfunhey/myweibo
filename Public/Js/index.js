@@ -374,15 +374,7 @@ $('.forrepost').unbind('click').click( function(event) {
 
      
 
-     
-     // $("#file_upload").on('filepreupload', function(event, data, previewId, index){
-     //    alert(previewId);
-     //    $(this).fileinput('clear');
-     //    $(this).fileinput('enable');
-     //    // $(this).fileinput('refresh');
-     //    $('.upup').hide();
-     //    return 10;
-     // })
+    
 
      
         

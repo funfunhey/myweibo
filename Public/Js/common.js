@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2014-12-19 17:00:51
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-01-21 22:23:06
+* @Last Modified time: 2015-01-23 17:00:07
 */
 
 $(function(){
@@ -57,6 +57,16 @@ $(function(){
                 artworkimg.attr('id',clickid);
                 rotate(artworkimg.attr('id'),angle==undefined?90:angle);
             });
+            artworkimg.off('mouseover').on('mouseover',function(event3){
+               artworkimg.removeClass().addClass('smallcursor');
+               artworkimg.click(function(event4) {
+                   detail_ex_me.hide();
+                    wpl.show();
+                    _this[0].removeChild(_this.find('.loadingb')[0]); 
+               });
+                
+            })
+            
             // $.load(ROOT+'Uploads/' ,function(){
 
             // })
@@ -77,14 +87,25 @@ $(function(){
             var totallength = _this.parent().children('li').length;
 
             var toimg = _this.parent();
-            //console.log(index);
             //添加下面的缩略图
             $.each(detail.find('.photo_box li img'), function(index1, val1) {
                 html +='<li > <a href="javascript:void(0)"> <img src='+detail.find('.photo_box li img').eq(index1).attr('src')+' alt="" /> </a> </li>';  
             });
              detail.find('.picchoose ').html(html);
              detail.find('.picchoose li').eq(imgindex).find('a').addClass('colorline');
+             var picchooseli = detail.find('.picchoose li');
+             //点击缩略图弹出对应图片
+             $.each(picchooseli, function(index4, val) {
+                  $(this).off('click').on('click', function(event) {
+                    imgindex = index4;
+                    artworkimg.attr('src',toimg.find('li').eq(index4).find('img').attr('asrc'));
+                    detail.find('.picchoose li a').removeClass('colorline');
+                    picchooseli.eq(imgindex).find('a').addClass('colorline');
 
+                  });
+             });
+
+             //加载功能和弹出大图
             _this.append('<i class="loadingb"></i>');
             wpl.hide();
             detail_ex_me.show();
@@ -93,12 +114,11 @@ $(function(){
             detail.find('.shouqi').off('click').on('click', function(event) {
                detail_ex_me.hide();
                 wpl.show();
-                _this[0].removeChild($('.loadingb')[0]);
+                _this[0].removeChild(_this.find('.loadingb')[0]);
              });
 
              //下一张和上一张
         artworkimg.off('mousemove').on('mousemove',function(event6) {
-                // console.log(event6.pageX);
             var wzx = event6.pageX - getX(artworkimg[0]);
             var wzy = event6.pageY - getY(artworkimg[0]);         
             var nextli = _this.nextAll('li').length;
@@ -169,33 +189,35 @@ $(function(){
             var obj1 = $('.usercardload');
             var objx1 = obj1.width();
             var objy1 = obj1.height();
-            mousepos(objx1,objy1,e,obj1);
+
             var obj = $('.pop_usercard');
             var objx = $('.pop_usercard').width();
             var objy = $('.pop_usercard').height();
             var uid  = $(this).attr('uid');
-            console.log(uid);
-            $.post(COMMON+'showusercard', {uid: uid}, function(status) {
+           if (uid !== getcookie('uid')) mousepos(objx1,objy1,e,obj1);
+            if (uid !== getcookie('uid')){
+                $.post(COMMON+'showusercard', {uid: uid}, function(status) {
                 obj1.hide();
-                var usercardinfo = $.parseJSON(status);
-                console.log(status);
-                 obj.find('.WB_face img').attr('src',ROOT+usercardinfo.photo); 
-                 obj.find('.count').html('<span class="c_follow "> <a href="" target="_blank"> 关注 <em class="focuscount">'+usercardinfo.focus+'</em> </a> </span> <span class="c_follow"> <a href="" target="_blank"> 粉丝 <em class="fanscount">'+usercardinfo.fans+'</em> </a> </span> <span class="c_follow"> <a href="" target="_blank"> 微博 <em class="weibocount">'+usercardinfo.contentcount+'</em> </a> </span>  ');
-                 obj.find('.namename').html(usercardinfo.username);
-                 obj.find('.autocut').html('<span>'+usercardinfo.production+'</span>');
-                  mousepos(objx,objy,e,obj); 
-                  console.log(json_fans.indexOf(uid));
-                  if(json_fans.indexOf(uid) !== -1 && json_focus.indexOf(uid) !== -1){
-                        obj.find('.btn-focus').html('<em class="f">Z</em> 互相关注 <em class="f">g</em>'); 
-                    }else if(json_fans.indexOf(uid) !== -1 ){
-                        obj.find('.btn-focus').html('<em class="f">+</em> 关注 ');
-                    }else if(json_focus.indexOf(uid) !== -1){
-                        obj.find('.btn-focus').html('<em class="f">Y</em> 已关注 <em class="f">g</em>'); 
-                    }else {
-                       obj.find('.btn-focus').html('<em class="f">+</em> 关注ta '); 
-                    }
-                  
-            });
+                    var usercardinfo = $.parseJSON(status);
+                    console.log(status);
+                     obj.find('.WB_face img').attr('src',ROOT+usercardinfo.photo); 
+                     obj.find('.count').html('<span class="c_follow "> <a href="" target="_blank"> 关注 <em class="focuscount">'+usercardinfo.focus+'</em> </a> </span> <span class="c_follow"> <a href="" target="_blank"> 粉丝 <em class="fanscount">'+usercardinfo.fans+'</em> </a> </span> <span class="c_follow"> <a href="" target="_blank"> 微博 <em class="weibocount">'+usercardinfo.contentcount+'</em> </a> </span>  ');
+                     obj.find('.namename').html(usercardinfo.username);
+                     obj.find('.autocut').html('<span>'+usercardinfo.production+'</span>');
+                      mousepos(objx,objy,e,obj); 
+                      if(json_fans.indexOf(uid) !== -1 && json_focus.indexOf(uid) !== -1){
+                            obj.find('.btn-focus').html('<em class="f">Z</em> 互相关注 <em class="f">g</em>'); 
+                        }else if(json_fans.indexOf(uid) !== -1 ){
+                            obj.find('.btn-focus').html('<em class="f">+</em> 关注 ');
+                        }else if(json_focus.indexOf(uid) !== -1){
+                            obj.find('.btn-focus').html('<em class="f">Y</em> 已关注 <em class="f">g</em>'); 
+                        }else {
+                           obj.find('.btn-focus').html('<em class="f">+</em> 关注ta '); 
+                        }
+                      
+                }); 
+            }
+           
             
            
  
@@ -385,7 +407,7 @@ function askat(atcon,atcom,comc){
             var con = json_at.atnewcon;
             var com = json_at.atnewcom;
             var comc = json_at.comment;
-            if(con != 0) console.log('dlfjdsl');
+
                  if(con && con != 0 && com && com != 0 ){
                     $('.topmenutip').show().find('ul').html('<li>' + con +'条@我的微博, <a href="'+ NEWS +'newsat" class="linkor ">查看@我的微博</a></li><li>' + com +'条@我的评论, <a href="'+ NEWS +'/newsatcomment" class="linkor ">查看@我的评论</a></li>'); 
                     $('.new_count').show().html(parseInt(com)+parseInt(con));
@@ -533,4 +555,13 @@ function getY(obj){
     } 
     return top; 
 }
+function getcookie(name){
+    var strCookie=document.cookie; 
+    var arrCookie=strCookie.split("; "); 
+    for(var i=0;i<arrCookie.length;i++){ 
+    var arr=arrCookie[i].split("="); 
+    if(arr[0]==name)return arr[1]; 
+    } 
+    return ""; 
 
+}

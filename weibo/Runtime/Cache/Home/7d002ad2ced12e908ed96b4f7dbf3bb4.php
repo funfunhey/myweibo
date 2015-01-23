@@ -121,6 +121,7 @@
     var INDEX = "/weibo/index.php/Home/Index/";
 	var USER = "/weibo/index.php/Home/User/";
     var NEWS = "/weibo/index.php/Home/News/";
+    var PUBLIC = "/weibo/Public";
 	var ROOT = "/weibo";
 	var VERIFY = "<?php echo U('Common/verify');?>";
 	var PICTURE = "/weibo/<?php echo ($pictures); ?>";
@@ -230,6 +231,73 @@
 <!-- 背景遮罩 -->
 <div id="background" class="hidden"></div>
 
+<div class="usercardload">
+    <div class="boxstyle">
+        <div class="loadinga f12">
+            正在加载中，请稍候.....
+        </div>
+    </div>
+</div>
+<div class="pop_usercard f12">
+    <div class="boxstyle">
+        <div class="personcard">
+            <div>
+                <div style="background-image:url(/weibo/Public/Images/t.jpg)" class="nc_head overf">
+                    <div class="pic_box">
+                        <a href="#" class="WB_face">
+                            <img src="/weibo/Public/Images/0.jpg" alt="" width="50" height="50"  />
+                        </a>
+                        <a href="">
+                            <i></i>
+                        </a>
+                    </div>
+                    <div class="mask">
+                        <div class="name">
+                            <a href="" class="namename"></a>
+                            <span class="remark">
+                                (<a href="javascript:void(0)">设置备注</a>)
+                            </span>
+                            <em class="f"></em>
+                            <a href="" title="huiyuan">
+                                <i></i>
+                            </a>
+                        </div>
+                        <div class="autocut">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="nc_content">
+                    <div class="count fw">
+                        
+                    </div>
+                    
+                    
+                    <div class="usercardinfo">
+                        <ul>
+                            <li class="info_li  h15">
+                                <a href="">北京</a>
+                            </li>
+                            <!--<li class="info_li h15">
+                                <em class="c8080">就职于</em>
+                                <a href="" class="h15">人民日报</a>
+                            </li>-->
+                        </ul>
+                    </div>
+                    <div class="c_btnbox h25">
+                        <a href="javascript:void(0)" class="btn-focus">
+                            
+                        </a>
+                        <a href="javascript:void(0)" class="btn-msg ">私信</a>
+                        <a href="javascript:void(0)" class="btn-menu ">
+                            <em class="f">=</em>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     </div>
     <div class="miniblogblog">
         <div class="miniblog">
@@ -426,9 +494,9 @@
                                     </a>
                                 </div><?php endif; ?>
                             <?php if(isset($vo["toid"])): ?><div class="txt1">
-                                    评论我的微博：
+                                    回复我的微博：
                                     <a href="javascript:void(0)" title="" class="f333">
-                                        <?php echo ($vo['content']); ?>
+                                        <?php echo ($vo['comment']); ?>
                                     </a>
                                 </div><?php endif; endif; ?>
                 </div>
@@ -454,7 +522,7 @@
                 <span class="list">
                     <div class="pagelist boxstyle">
                         <ul>
-                        <?php $__FOR_START_18360__=$page;$__FOR_END_18360__=0;for($i=$__FOR_START_18360__;$i > $__FOR_END_18360__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/News/newscomment/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
+                        <?php $__FOR_START_23864__=$page;$__FOR_END_23864__=0;for($i=$__FOR_START_23864__;$i > $__FOR_END_23864__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/News/newscomment/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
                             <?php else: ?>
                             <li><a href="/weibo/index.php/Home/News/newscomment/page/<?php echo ($i); ?>/id/<?php echo ($_GET['id']); ?>">第<?php echo ($i); ?>页</a></li><?php endif; } ?>
                         </ul>
@@ -633,7 +701,7 @@
                 <div class="list-box overf">
                     <div class="face_list">
                         <ul>
-                            <li title="债见" data="[88_org]"><img src="/weibo/Public/Images/biaoqing/88_org.gif" alt="" /></li>
+                            <li title="债见" data="[bye_org]"><img src="/weibo/Public/Images/biaoqing/bye_org.gif" alt="" /></li>
                             <li title="惊讶 " data="[cj_org]"><img src="/weibo/Public/Images/biaoqing/cj_org.gif" alt="" /></li>
                             <li title="可恶" data="[crazya_org]"><img src="/weibo/Public/Images/biaoqing/crazya_org.gif" alt="" /></li>
                             <li title="晕" data="[dizzya_org]"><img src="/weibo/Public/Images/biaoqing/dizzya_org.gif" alt="" /></li>
@@ -668,8 +736,8 @@
 </div>
 
 
-<div class="bottom">
 
+<div class="bottom">
 <?php if(is_array(C("bottom"))): foreach(C("bottom") as $key=>$bo): echo ($bo); ?>　<?php endforeach; endif; ?>
 
 <div><?php echo (C("copy")); ?></div>

@@ -96,6 +96,20 @@ class CommonController extends controller
         $this->success('注册成功，正在为您跳转...',__APP__);
     }
 
+    //校正微博数
+    public function fixcontent(){
+        $user = M('user'); 
+        $content = M('content');
+        $uid = $user->getField('id',true);
+        //var_dump($uid);
+        foreach ($uid as $key => $value) {
+            $contentnum = $content->where('uid=%d',$value)->count('id');
+            $data['contentcount'] = $contentnum;
+             $user->where('id=%d',$value)->save($data);
+        }
+       
+    }
+
     // 微博提交
     public function content(){
         $db = M('content');
@@ -142,7 +156,8 @@ class CommonController extends controller
                                    $aaa = $news->data($data1)->add(); ;
                                 } 
                             }                            
-                        }          
+                        }    
+                        $user->where('id=%d',$uid)->setInc('contentcount',1);    
                          echo $abc;
                }
            }              
@@ -282,12 +297,14 @@ class CommonController extends controller
      //删除微博
      public function deletecontent(){
         $content = M('content');
+        $user = M('user');
         $news = M('news');
         $uid = I('post.uid');
         $cid = I('post.cid');
         if($uid == cookie('uid')){
             echo $content->delete($cid);
             $news->where('conid=%d',$cid)->delete();
+            $user->where('id=%d',$uid)->setInc('contentcount',-1);
         }
      }
 

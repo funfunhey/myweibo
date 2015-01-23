@@ -121,6 +121,7 @@
     var INDEX = "/weibo/index.php/Home/Index/";
 	var USER = "/weibo/index.php/Home/User/";
     var NEWS = "/weibo/index.php/Home/News/";
+    var PUBLIC = "/weibo/Public";
 	var ROOT = "/weibo";
 	var VERIFY = "<?php echo U('Common/verify');?>";
 	var PICTURE = "/weibo/<?php echo ($pictures); ?>";
@@ -230,6 +231,73 @@
 <!-- 背景遮罩 -->
 <div id="background" class="hidden"></div>
 
+<div class="usercardload">
+    <div class="boxstyle">
+        <div class="loadinga f12">
+            正在加载中，请稍候.....
+        </div>
+    </div>
+</div>
+<div class="pop_usercard f12">
+    <div class="boxstyle">
+        <div class="personcard">
+            <div>
+                <div style="background-image:url(/weibo/Public/Images/t.jpg)" class="nc_head overf">
+                    <div class="pic_box">
+                        <a href="#" class="WB_face">
+                            <img src="/weibo/Public/Images/0.jpg" alt="" width="50" height="50"  />
+                        </a>
+                        <a href="">
+                            <i></i>
+                        </a>
+                    </div>
+                    <div class="mask">
+                        <div class="name">
+                            <a href="" class="namename"></a>
+                            <span class="remark">
+                                (<a href="javascript:void(0)">设置备注</a>)
+                            </span>
+                            <em class="f"></em>
+                            <a href="" title="huiyuan">
+                                <i></i>
+                            </a>
+                        </div>
+                        <div class="autocut">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="nc_content">
+                    <div class="count fw">
+                        
+                    </div>
+                    
+                    
+                    <div class="usercardinfo">
+                        <ul>
+                            <li class="info_li  h15">
+                                <a href="">北京</a>
+                            </li>
+                            <!--<li class="info_li h15">
+                                <em class="c8080">就职于</em>
+                                <a href="" class="h15">人民日报</a>
+                            </li>-->
+                        </ul>
+                    </div>
+                    <div class="c_btnbox h25">
+                        <a href="javascript:void(0)" class="btn-focus">
+                            
+                        </a>
+                        <a href="javascript:void(0)" class="btn-msg ">私信</a>
+                        <a href="javascript:void(0)" class="btn-menu ">
+                            <em class="f">=</em>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     </div>
     <div class="miniblogblog">
         <div class="miniblog">
@@ -383,53 +451,89 @@
                         <!-- 中下部 -->
                         <div class="">
                             
-    <?php if(is_array($contentinput)): foreach($contentinput as $key=>$vo): ?><div class="content-detail bgw">
-    <div class="WB_screen">
-        <div class="screen_box">
-            <a href=""><i class="f">c</i></a>
-        </div>
-    </div>
-
-    <div class="WB_face">
-        <div class="faces">
-            <a href=""><img src='/weibo/<?php echo ($picture); ?>'  height="50" width="50"alt="" /></a>
-        </div>
-    </div>
-    <div class="WB_detail">
-        <div class="WB_info">
-            <a href=""style="color:#333;font-size:14px;"><?php echo (cookie('username')); ?></a>
-            <a href="" class=""><i></i></a>
-            <a href="" class=""><i></i></a>
-        </div>
-        <div class="WB_txt">
-           <?php echo ($vo["comment"]); ?>
-        </div>
-
-        <div class="feed_expand">
-            <div class="expand2 bg1">
-                <?php $var = 'mine'; ?>
-                    <?php if(($var) == "mine"): ?><div class="txt1">
-                        评论<?php echo ($vo['cid'][0]['username']); ?>的微博：
-                        <a href="javascript:void(0)" title="" class="f333">
-                            <?php echo ($vo['cid'][0]['content']); ?>
-                        </a>
-                    </div><?php endif; ?>
+    <?php if(is_array($contentinput)): foreach($contentinput as $key=>$vo): $var = 'mine'; ?>
+<div class="fixbottom" />
+    <div class="content-detail bgw">
+        <div class="WB_screen">
+            <div class="screen_box">
+                <a href=""><i class="f">c</i></a>
             </div>
         </div>
-        <div class="WB_from txt2">
-            <a href=""class="txt2"><?php echo ($vo["date"]); ?></a>
-             来自 
-            <a href="javascript:void(0)"class="txt2">微博客户端</a>
+
+        <div class="WB_face">
+            <div class="faces WB_face_big">
+            <?php if(($var) == "mine"): ?><a href=""><img src='/weibo/<?php echo ($picture); ?>'  height="50" width="50"alt="" /></a><?php endif; ?>
+            <?php if(($var) == "notmine"): ?><a href=""><img src='/weibo/<?php echo ($vo["photo"]); ?>'  height="50" width="50"alt="" /></a><?php endif; ?>
+            </div>
+        </div>
+        <div class="WB_detail">
+            <div class="WB_info">
+            <?php if(($var) == "mine"): ?><a href=""style="color:#333;font-size:14px;"><?php echo (cookie('username')); ?></a>
+                <a href="" class=""><i></i></a>
+                <a href="" class=""><i></i></a><?php endif; ?>
+            <?php if(($var) == "notmine"): ?><a href=""style="color:#333;font-size:14px;"><?php echo ($vo["username"]); ?></a>
+                <a href="" class=""><i></i></a>
+                <a href="" class=""><i></i></a><?php endif; ?>
+            </div>
+            <div class="WB_txt">
+               <?php echo ($vo["comment"]); ?>
+            </div>
+
+            <div class="feed_expand">
+                <div class="expand2 bg1">
+                        <?php if(($var) == "mine"): ?><div class="txt1">
+                            评论<?php echo ($vo['cid'][0]['username']); ?>的微博：
+                            <a href="javascript:void(0)" title="" class="f333">
+                                <?php echo ($vo['cid'][0]['content']); ?>
+                            </a>
+                        </div><?php endif; ?>
+                        <?php if(($var) == "notmine"): if(!isset($vo["toid"])): ?><div class="txt1">
+                                    评论我的微博：
+                                    <a href="javascript:void(0)" title="" class="f333">
+                                        <?php echo ($vo['content']); ?>
+                                    </a>
+                                </div><?php endif; ?>
+                            <?php if(isset($vo["toid"])): ?><div class="txt1">
+                                    回复我的微博：
+                                    <a href="javascript:void(0)" title="" class="f333">
+                                        <?php echo ($vo['comment']); ?>
+                                    </a>
+                                </div><?php endif; endif; ?>
+                </div>
+            </div>
+            <div class="WB_from txt2">
+                <a href=""class="txt2"><?php echo ($vo["date"]); ?></a>
+                 来自 
+                <a href="javascript:void(0)"class="txt2">微博客户端</a>
+            </div>
         </div>
     </div>
-</div>
-<div class="feed_handle bgw">
-    <div>
-        <ul class="line1">
-            <li class="w100"><a href=""class="txt2"><span class="pos"><span class="f333">回复</span></span></a></li>
-        </ul>
+    <div class="feed_handle bgw">
+        <div>
+            <ul class="line1">
+                <li class="w100"><a href=""class="txt2"><span class="pos"><span class="f333">回复</span></span></a></li>
+            </ul>
+        </div>
     </div>
 </div><?php endforeach; endif; ?>
+<div class="superpage">
+    <div class="page f12">
+        <?php if(($pages > 1) AND ($pages <= 10)): ?><a href="/weibo/index.php/Home/News/newscomment_mine/page/<?php echo ($page_pre); ?>"class="page_pre">上一页</a><?php endif; ?>
+                <span class="list">
+                    <div class="pagelist boxstyle">
+                        <ul>
+                        <?php $__FOR_START_7372__=$page;$__FOR_END_7372__=0;for($i=$__FOR_START_7372__;$i > $__FOR_END_7372__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/News/newscomment_mine/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
+                            <?php else: ?>
+                            <li><a href="/weibo/index.php/Home/News/newscomment_mine/page/<?php echo ($i); ?>/id/<?php echo ($_GET['id']); ?>">第<?php echo ($i); ?>页</a></li><?php endif; } ?>
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0)" class="first_page">第<?php echo ($pages); ?>页 <em class="f f12">c</em></a>
+                </span>
+
+        <?php if(($pages >= 1) AND ($pages < $page)): ?><a href="/weibo/index.php/Home/News/newscomment_mine/page/<?php echo ($page_next); ?>"class="page_next">下一页</a><?php endif; ?>
+
+    </div>
+</div>
 
                         </div>
                     </div>
@@ -597,7 +701,7 @@
                 <div class="list-box overf">
                     <div class="face_list">
                         <ul>
-                            <li title="债见" data="[88_org]"><img src="/weibo/Public/Images/biaoqing/88_org.gif" alt="" /></li>
+                            <li title="债见" data="[bye_org]"><img src="/weibo/Public/Images/biaoqing/bye_org.gif" alt="" /></li>
                             <li title="惊讶 " data="[cj_org]"><img src="/weibo/Public/Images/biaoqing/cj_org.gif" alt="" /></li>
                             <li title="可恶" data="[crazya_org]"><img src="/weibo/Public/Images/biaoqing/crazya_org.gif" alt="" /></li>
                             <li title="晕" data="[dizzya_org]"><img src="/weibo/Public/Images/biaoqing/dizzya_org.gif" alt="" /></li>
@@ -632,8 +736,8 @@
 </div>
 
 
-<div class="bottom">
 
+<div class="bottom">
 <?php if(is_array(C("bottom"))): foreach(C("bottom") as $key=>$bo): echo ($bo); ?>　<?php endforeach; endif; ?>
 
 <div><?php echo (C("copy")); ?></div>

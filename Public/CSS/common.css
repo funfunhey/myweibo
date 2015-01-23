@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2014-12-12 16:46:14
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-01-21 21:15:14
+* @Last Modified time: 2015-01-23 16:37:13
 */
 @font-face {
     font-family:'yahei';
@@ -2280,7 +2280,7 @@ span.ico{
 }
 .stage_box img{
     width: 50px;
-    height: 50px;
+    height: 49px;
     border: 1px solid #f2f2f5;
 }
 /*media*/

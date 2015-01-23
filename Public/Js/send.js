@@ -3,7 +3,7 @@
 * @Author: anchen
 * @Date:   2014-12-16 15:11:44
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-01-20 10:40:12
+* @Last Modified time: 2015-01-23 17:15:33
 */
 
 $(function (){
@@ -37,7 +37,7 @@ $(function (){
 
 
 
-    $('.inputcontent textarea').on('keyup', function(event) {
+    $('.inputcontent textarea').off('keyup').on('keyup', function(event) {
         // 数出多少个字
     var contentnum = 140;
         var contentvalues = $(this).val();
@@ -150,9 +150,6 @@ $(function (){
                         $(this).fileinput('enable');
                         $('.upup').hide();
                         
-                        $("#file_upload").fileinput({
-                            uploadExtraData :data,
-                        });
                          console.log(data);
                         file_name = data.response;
 
@@ -161,8 +158,6 @@ $(function (){
                        }
                        
                     });
-                    
-
                 } else{
                     contentajax(null);
                 }
@@ -263,7 +258,6 @@ $(function (){
         var bodyX = document.documentElement.clientWidth + $(document).scrollLeft();
 
         var bodyY = document.documentElement.clientHeight + $(document).scrollTop();
-        console.log(bodyX,bodyY,selfX,selfY,e.pageX);
 
         if(selfX > bodyX && selfY > bodyY){
             obj.css({top:(bodyY - objy),left:(bodyX - objx)}).fadeIn();
