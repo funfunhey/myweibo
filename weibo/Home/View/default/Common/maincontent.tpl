@@ -210,16 +210,39 @@
                         <div class="txt1 f12 content">
                             {$vo['cid'][0][content]}
                         </div>
-                         <!--   <div class="WB_photo_list">
-                            <div class="photo_box">
-                                <ul>
-                                    <li><img src="" alt="" />
-                                        <i class="loading"></i>
-                                    </li>
-                                   
-                                </ul>
+                         <neq name="vo.filenamecount" value="1">
+                            <div class="WB_photo_list overf">
+                                <div class="photo_box">
+                                    <ul>
+                                    <foreach name="vo['cid'][0]['filename']" item="fo">
+                                        <li>
+                                            <img src='__ROOT__/Uploads/Public/{$vo['cid'][0]['uid']}/contentsmall/{$vo['cid'][0]['position']}/{$fo}' asrc='__ROOT__/Uploads/Public/{$vo['cid'][0]['uid']}/contentmiddle/{$vo['cid'][0]['position']}/{$fo}' alt="" uid='{$vo['cid'][0]['uid']}' pid='{$vo['cid'][0]['position']}' fid='{$fo}'/>
+                                        
+                                        </li>
+                                    </foreach> 
+
+                                    </ul>
+                                </div>
                             </div>
-                        </div> -->
+                            <include file="Common/media" />
+                            </neq>
+                            <eq name="vo.filenamecount" value="1" >
+                                <div class="WB_photo_list overf">
+                                    <div class="photo_box1">
+                                        <ul>
+                                        <foreach name="vo['cid'][0]['filename']" item="fo">
+                                            <li>
+                                                <img src='__ROOT__/Uploads/Public/{$vo['cid'][0]['uid']}/contentsmall/{$vo['cid'][0]['position']}/{$fo}' asrc='__ROOT__/Uploads/Public/{$vo['cid'][0]['uid']}/contentmiddle/{$vo['cid'][0]['position']}/{$fo}' alt="" uid='{$vo['cid'][0]['uid']}' pid='{$vo['cid'][0]['position']}' fid='{$fo}'/>
+                                            
+                                            </li>
+                                        </foreach> 
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <include file="Common/media" />
+                            </eq>
+                        </neq> 
                         <div class="WB_from txt2 f12">
                             <a href=""class="txt2 ">{$vo['cid'][0][date]}</a>
                              来自 

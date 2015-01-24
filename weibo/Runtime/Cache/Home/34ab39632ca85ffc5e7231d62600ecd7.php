@@ -117,6 +117,7 @@
     var INDEX = "/weibo/index.php/Home/Index/";
 	var USER = "/weibo/index.php/Home/User/";
     var NEWS = "/weibo/index.php/Home/News/";
+    var PUBLIC = "/weibo/Public";
 	var ROOT = "/weibo";
 	var VERIFY = "<?php echo U('Common/verify');?>";
 	var PICTURE = "/weibo/<?php echo ($pictures); ?>";
@@ -226,6 +227,13 @@
 <!-- 背景遮罩 -->
 <div id="background" class="hidden"></div>
 
+<div class="usercardload">
+    <div class="boxstyle">
+        <div class="loadinga f12">
+            正在加载中，请稍候.....
+        </div>
+    </div>
+</div>
 <div class="pop_usercard f12">
     <div class="boxstyle">
         <div class="personcard">
@@ -241,7 +249,7 @@
                     </div>
                     <div class="mask">
                         <div class="name">
-                            <a href=""uid="01">renren </a>
+                            <a href="" class="namename"></a>
                             <span class="remark">
                                 (<a href="javascript:void(0)">设置备注</a>)
                             </span>
@@ -251,51 +259,30 @@
                             </a>
                         </div>
                         <div class="autocut">
-                            <span>
-                                简介：XXX法人微博
-                            </span>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="nc_content">
                     <div class="count fw">
-                        <span class="c_follow ">
-                            <a href="" target="_blank">
-                                关注
-                                <em>674</em>
-                            </a>
-                        </span>
-                        <span class="c_follow">
-                            <a href="" target="_blank">
-                                粉丝 
-                                <em>674</em>
-                            </a>
-                        </span>
-                        <span class="c_follow">
-                            <a href="" target="_blank">
-                                微博
-                                <em>674</em>
-                            </a>
-                        </span>  
+                        
                     </div>
                     
                     
                     <div class="usercardinfo">
                         <ul>
                             <li class="info_li  h15">
-                                <a href="">beijing</a>
+                                <a href="">北京</a>
                             </li>
-                            <li class="info_li h15">
+                            <!--<li class="info_li h15">
                                 <em class="c8080">就职于</em>
                                 <a href="" class="h15">人民日报</a>
-                            </li>
+                            </li>-->
                         </ul>
                     </div>
                     <div class="c_btnbox h25">
                         <a href="javascript:void(0)" class="btn-focus">
-                            <em class="f">Y</em>
-                            已关注
-                            <em class="f">g</em>
+                            
                         </a>
                         <a href="javascript:void(0)" class="btn-msg ">私信</a>
                         <a href="javascript:void(0)" class="btn-menu ">
@@ -475,7 +462,7 @@
 
                         </div>
                     </div>
-                    <style type="text/css" media="screen">
+                    <style type="text/css">
     .WB_detail{
         margin:0  0 0 6px;
     }
@@ -487,7 +474,7 @@
         height: 16px;
         width: 41px;
         display: inline-block;
-        text-align: center;
+        text-align: center; 
     }
     .WB_txt{
         padding-right: 16px;
@@ -565,17 +552,165 @@
             <div class="WB_txt content "   >
                 <?php echo ($vo["content"]); ?>
             </div>
-          <!--   <div class="WB_photo_list">
-                <div class="photo_box">
-                    <ul>
-                        <li><img src="" alt="" />
-                            <i class="loading"></i>
-                        </li>
-                       
-                    </ul>
-                </div>
-            </div> -->
-                        <div class="WB_from txt2 f12">
+              <?php if(($vo["position"]) != "0"): if(($vo["filenamecount"]) != "1"): ?><div class="WB_photo_list overf">
+                        <div class="photo_box">
+                            <ul>
+                            <?php if(is_array($vo["filename"])): foreach($vo["filename"] as $key=>$fo): ?><li>
+                                    <img src='/weibo/Uploads/Public/<?php echo ($vo["uid"]); ?>/contentsmall/<?php echo ($vo["position"]); ?>/<?php echo ($fo); ?>' asrc='/weibo/Uploads/Public/<?php echo ($vo["uid"]); ?>/contentmiddle/<?php echo ($vo["position"]); ?>/<?php echo ($fo); ?>' alt="" uid='<?php echo ($vo["uid"]); ?>' pid='<?php echo ($vo["position"]); ?>' fid='<?php echo ($fo); ?>'/>
+                                
+                                </li><?php endforeach; endif; ?> 
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="expand_media_box">
+    <div class="expand_media">
+        <div class="tab_clearfix">
+            <div class="taba">
+                <ul class="overf f12">
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="shouqi">
+                                <i class="f">k</i>
+                                收起
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)">
+                                <i class="f">f</i>
+                                查看大图
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="rotatel">
+                                <i class="f">m</i>
+                                向左旋转
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="rotater">
+                                <i class="f">n</i>
+                                向右旋转
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bigimgdiv overf">
+            <ul>
+                <li >
+                    <div class="artwork">
+                        <div class="imgspan">
+                              <img src="" id="" alt="" width="440" />                       
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="pic_choose">
+            <a href="javascript:void(0)" class="curleft bg2">
+                <i class="f fccc">b</i>
+
+            </a>
+            <div class="stage_box">
+                <ul class="picchoose">
+                  
+                </ul>
+            </div>
+            <a href="javascript:void(0)" class="curright bg2">
+                <i class="f">a</i>
+            </a>
+        </div>
+        </div>
+        
+    </div>
+</div><?php endif; ?>
+                    <?php if(($vo["filenamecount"]) == "1"): ?><div class="WB_photo_list overf">
+                            <div class="photo_box1">
+                                <ul>
+                                <?php if(is_array($vo["filename"])): foreach($vo["filename"] as $key=>$fo): ?><li>
+                                        <img src='/weibo/Uploads/Public/<?php echo ($vo["uid"]); ?>/contentsmall/<?php echo ($vo["position"]); ?>/<?php echo ($fo); ?>' asrc='/weibo/Uploads/Public/<?php echo ($vo["uid"]); ?>/contentmiddle/<?php echo ($vo["position"]); ?>/<?php echo ($fo); ?>' alt="" uid='<?php echo ($vo["uid"]); ?>' pid='<?php echo ($vo["position"]); ?>' fid='<?php echo ($fo); ?>'/>
+                                    
+                                    </li><?php endforeach; endif; ?> 
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="expand_media_box">
+    <div class="expand_media">
+        <div class="tab_clearfix">
+            <div class="taba">
+                <ul class="overf f12">
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="shouqi">
+                                <i class="f">k</i>
+                                收起
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)">
+                                <i class="f">f</i>
+                                查看大图
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="rotatel">
+                                <i class="f">m</i>
+                                向左旋转
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="rotater">
+                                <i class="f">n</i>
+                                向右旋转
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bigimgdiv overf">
+            <ul>
+                <li >
+                    <div class="artwork">
+                        <div class="imgspan">
+                              <img src="" id="" alt="" width="440" />                       
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="pic_choose">
+            <a href="javascript:void(0)" class="curleft bg2">
+                <i class="f fccc">b</i>
+
+            </a>
+            <div class="stage_box">
+                <ul class="picchoose">
+                  
+                </ul>
+            </div>
+            <a href="javascript:void(0)" class="curright bg2">
+                <i class="f">a</i>
+            </a>
+        </div>
+        </div>
+        
+    </div>
+</div><?php endif; endif; ?>
+                <div class="WB_from txt2 f12">
                 <a href=""class="txt2"><?php echo ($vo["date"]); ?></a>
                  来自 
                 <a href=""class="txt2">微博客户端</a>
@@ -817,25 +952,174 @@
                     </div>
                     <div class="expand2 bg1">
                         <div class="WB_info">
-                            <a href=""style="color:#333;font-size:12px;font-weight:bold" >@<?php echo ($vo['cid']['username']); ?></a>
+                            <a href="<?php echo U('User/index',array('id'=>$vo[cid][0][uid]));?>"style="color:#333;font-size:12px;font-weight:bold" uid=<?php echo ($vo['cid']['uid']); ?>>@<?php echo ($vo['cid']['username']); ?></a>
                             <a href="" class=""><i></i></a>
                             <a href="" class=""><i></i></a>
                         </div>
                         <div class="txt1 f12 content">
                             <?php echo ($vo['cid']['content']); ?>
                         </div>
-                         <!--   <div class="WB_photo_list">
-                            <div class="photo_box">
-                                <ul>
-                                    <li><img src="" alt="" />
-                                        <i class="loading"></i>
-                                    </li>
-                                   
-                                </ul>
+                         <?php if(($vo["filenamecount"]) != "1"): ?><div class="WB_photo_list overf">
+                                <div class="photo_box">
+                                    <ul>
+                                    <?php if(is_array($vo['cid']['filename'])): foreach($vo['cid']['filename'] as $key=>$fo): ?><li>
+                                            <img src='/weibo/Uploads/Public/<?php echo ($vo['cid']['uid']); ?>/contentsmall/<?php echo ($vo['cid']['position']); ?>/<?php echo ($fo); ?>' asrc='/weibo/Uploads/Public/<?php echo ($vo['cid']['uid']); ?>/contentmiddle/<?php echo ($vo['cid']['position']); ?>/<?php echo ($fo); ?>' alt="" uid='<?php echo ($vo['cid']['uid']); ?>' pid='<?php echo ($vo['cid']['position']); ?>' fid='<?php echo ($fo); ?>'/>
+                                        
+                                        </li><?php endforeach; endif; ?> 
+
+                                    </ul>
+                                </div>
                             </div>
-                        </div> -->
+                            <div class="expand_media_box">
+    <div class="expand_media">
+        <div class="tab_clearfix">
+            <div class="taba">
+                <ul class="overf f12">
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="shouqi">
+                                <i class="f">k</i>
+                                收起
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)">
+                                <i class="f">f</i>
+                                查看大图
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="rotatel">
+                                <i class="f">m</i>
+                                向左旋转
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="rotater">
+                                <i class="f">n</i>
+                                向右旋转
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bigimgdiv overf">
+            <ul>
+                <li >
+                    <div class="artwork">
+                        <div class="imgspan">
+                              <img src="" id="" alt="" width="440" />                       
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="pic_choose">
+            <a href="javascript:void(0)" class="curleft bg2">
+                <i class="f fccc">b</i>
+
+            </a>
+            <div class="stage_box">
+                <ul class="picchoose">
+                  
+                </ul>
+            </div>
+            <a href="javascript:void(0)" class="curright bg2">
+                <i class="f">a</i>
+            </a>
+        </div>
+        </div>
+        
+    </div>
+</div><?php endif; ?>
+                            <?php if(($vo["filenamecount"]) == "1"): ?><div class="WB_photo_list overf">
+                                    <div class="photo_box1">
+                                        <ul>
+                                        <?php if(is_array($vo['cid']['filename'])): foreach($vo['cid']['filename'] as $key=>$fo): ?><li>
+                                                <img src='/weibo/Uploads/Public/<?php echo ($vo['cid']['uid']); ?>/contentsmall/<?php echo ($vo['cid']['position']); ?>/<?php echo ($fo); ?>' asrc='/weibo/Uploads/Public/<?php echo ($vo['cid']['uid']); ?>/contentmiddle/<?php echo ($vo['cid']['position']); ?>/<?php echo ($fo); ?>' alt="" uid='<?php echo ($vo['cid']['uid']); ?>' pid='<?php echo ($vo['cid']['position']); ?>' fid='<?php echo ($fo); ?>'/>
+                                            
+                                            </li><?php endforeach; endif; ?> 
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="expand_media_box">
+    <div class="expand_media">
+        <div class="tab_clearfix">
+            <div class="taba">
+                <ul class="overf f12">
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="shouqi">
+                                <i class="f">k</i>
+                                收起
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)">
+                                <i class="f">f</i>
+                                查看大图
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="rotatel">
+                                <i class="f">m</i>
+                                向左旋转
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="rotater">
+                                <i class="f">n</i>
+                                向右旋转
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bigimgdiv overf">
+            <ul>
+                <li >
+                    <div class="artwork">
+                        <div class="imgspan">
+                              <img src="" id="" alt="" width="440" />                       
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="pic_choose">
+            <a href="javascript:void(0)" class="curleft bg2">
+                <i class="f fccc">b</i>
+
+            </a>
+            <div class="stage_box">
+                <ul class="picchoose">
+                  
+                </ul>
+            </div>
+            <a href="javascript:void(0)" class="curright bg2">
+                <i class="f">a</i>
+            </a>
+        </div>
+        </div>
+        
+    </div>
+</div><?php endif; ?>
+                        </neq> 
                         <div class="WB_from txt2 f12">
-                            <a href=""class="txt2 "><?php echo ($vo['cid'][0][date]); ?></a>
+                            <a href=""class="txt2 "><?php echo ($vo['cid'][date]); ?></a>
                              来自 
                             <a href=""class="txt2">微博客户端</a>
                         </div>
@@ -990,7 +1274,7 @@
                 <span class="list">
                     <div class="pagelist boxstyle">
                         <ul>
-                        <?php $__FOR_START_11254__=$page;$__FOR_END_11254__=0;for($i=$__FOR_START_11254__;$i > $__FOR_END_11254__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/User/index/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
+                        <?php $__FOR_START_2174__=$page;$__FOR_END_2174__=0;for($i=$__FOR_START_2174__;$i > $__FOR_END_2174__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/User/index/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
                             <?php else: ?>
                             <li><a href="/weibo/index.php/Home/User/index/page/<?php echo ($i); ?>/id/<?php echo ($_GET['id']); ?>">第<?php echo ($i); ?>页</a></li><?php endif; } ?>
                         </ul>

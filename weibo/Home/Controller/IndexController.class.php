@@ -41,6 +41,11 @@ class IndexController extends Controller {
                 $contentinput[$key]['cid'] = $contents->field(array('id','content','uid','position','date','username','production','photo'))->where('content.id=%d',$value['cid'])->limit(1)->select();
                 $contentinput[$key]['cid'][0]['content'] = facelook($contentinput[$key]['cid'][0]['content'],__ROOT__,__MODULE__);
                 $contentinput[$key]['cid'][0]['date'] = todate($contentinput[$key]['cid'][0]['date']);
+                if ($contentinput[$key]['cid'][0]['position'] !== 0) {
+                    $contentinput[$key]['cid'][0]['filename'] = filename($contentinput[$key]['cid'][0]['uid'],$contentinput[$key]['cid'][0]['position']);
+                    $contentinput[$key]['cid'][0]['filenamecount'] = count($contentinput[$key]['cid'][0]['filename']);
+                }
+
             };
             if ($value['position'] !== 0) {
                 $contentinput[$key]['filename'] = filename($value['uid'],$value['position']);

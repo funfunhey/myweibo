@@ -2,7 +2,7 @@
     <div class="expand_media">
         <div class="tab_clearfix">
             <div class="taba">
-                <ul class="overf">
+                <ul class="overf f12">
                     <li>
                         <span class="line2">
                             <a href="javascript:void(0)" class="shouqi">

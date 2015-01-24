@@ -3,7 +3,7 @@
 * @Author: anchen
 * @Date:   2014-12-16 15:11:44
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-01-23 17:15:33
+* @Last Modified time: 2015-01-24 10:22:04
 */
 
 $(function (){
@@ -149,11 +149,12 @@ $(function (){
                         $(this).fileinput('clear');
                         $(this).fileinput('enable');
                         $('.upup').hide();
-                        
-                         console.log(data);
+                        console.log(previewId);
+                         console.log(data.files.length);
                         file_name = data.response;
+                        console.log(index);
 
-                       if(index == data.files.length-1){
+                       if(index == 0){
                          contentajax(file_name) ;
                        }
                        

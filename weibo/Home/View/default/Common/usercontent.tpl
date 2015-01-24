@@ -10,7 +10,7 @@
         height: 16px;
         width: 41px;
         display: inline-block;
-        text-align: center;
+        text-align: center; 
     }
     .WB_txt{
         padding-right: 16px;
@@ -64,17 +64,41 @@
             <div class="WB_txt content "   >
                 {$vo.content}
             </div>
-          <!--   <div class="WB_photo_list">
-                <div class="photo_box">
-                    <ul>
-                        <li><img src="" alt="" />
-                            <i class="loading"></i>
-                        </li>
-                       
-                    </ul>
-                </div>
-            </div> -->
-                        <div class="WB_from txt2 f12">
+              <neq name="vo.position" value="0" >
+                    <neq name="vo.filenamecount" value="1">
+                    <div class="WB_photo_list overf">
+                        <div class="photo_box">
+                            <ul>
+                            <foreach name="vo.filename" item="fo">
+                                <li>
+                                    <img src='__ROOT__/Uploads/Public/{$vo.uid}/contentsmall/{$vo.position}/{$fo}' asrc='__ROOT__/Uploads/Public/{$vo.uid}/contentmiddle/{$vo.position}/{$fo}' alt="" uid='{$vo.uid}' pid='{$vo.position}' fid='{$fo}'/>
+                                
+                                </li>
+                            </foreach> 
+
+                            </ul>
+                        </div>
+                    </div>
+                    <include file="Common/media" />
+                    </neq>
+                    <eq name="vo.filenamecount" value="1" >
+                        <div class="WB_photo_list overf">
+                            <div class="photo_box1">
+                                <ul>
+                                <foreach name="vo.filename" item="fo">
+                                    <li>
+                                        <img src='__ROOT__/Uploads/Public/{$vo.uid}/contentsmall/{$vo.position}/{$fo}' asrc='__ROOT__/Uploads/Public/{$vo.uid}/contentmiddle/{$vo.position}/{$fo}' alt="" uid='{$vo.uid}' pid='{$vo.position}' fid='{$fo}'/>
+                                    
+                                    </li>
+                                </foreach> 
+
+                                </ul>
+                            </div>
+                        </div>
+                        <include file="Common/media" />
+                    </eq>
+                </neq>
+                <div class="WB_from txt2 f12">
                 <a href=""class="txt2">{$vo.date}</a>
                  来自 
                 <a href=""class="txt2">微博客户端</a>
@@ -175,18 +199,41 @@
                         <div class="txt1 f12 content">
                             {$vo['cid']['content']}
                         </div>
-                         <!--   <div class="WB_photo_list">
-                            <div class="photo_box">
-                                <ul>
-                                    <li><img src="" alt="" />
-                                        <i class="loading"></i>
-                                    </li>
-                                   
-                                </ul>
+                         <neq name="vo.filenamecount" value="1">
+                            <div class="WB_photo_list overf">
+                                <div class="photo_box">
+                                    <ul>
+                                    <foreach name="vo['cid']['filename']" item="fo">
+                                        <li>
+                                            <img src='__ROOT__/Uploads/Public/{$vo['cid']['uid']}/contentsmall/{$vo['cid']['position']}/{$fo}' asrc='__ROOT__/Uploads/Public/{$vo['cid']['uid']}/contentmiddle/{$vo['cid']['position']}/{$fo}' alt="" uid='{$vo['cid']['uid']}' pid='{$vo['cid']['position']}' fid='{$fo}'/>
+                                        
+                                        </li>
+                                    </foreach> 
+
+                                    </ul>
+                                </div>
                             </div>
-                        </div> -->
+                            <include file="Common/media" />
+                            </neq>
+                            <eq name="vo.filenamecount" value="1" >
+                                <div class="WB_photo_list overf">
+                                    <div class="photo_box1">
+                                        <ul>
+                                        <foreach name="vo['cid']['filename']" item="fo">
+                                            <li>
+                                                <img src='__ROOT__/Uploads/Public/{$vo['cid']['uid']}/contentsmall/{$vo['cid']['position']}/{$fo}' asrc='__ROOT__/Uploads/Public/{$vo['cid']['uid']}/contentmiddle/{$vo['cid']['position']}/{$fo}' alt="" uid='{$vo['cid']['uid']}' pid='{$vo['cid']['position']}' fid='{$fo}'/>
+                                            
+                                            </li>
+                                        </foreach> 
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <include file="Common/media" />
+                            </eq>
+                        </neq> 
                         <div class="WB_from txt2 f12">
-                            <a href=""class="txt2 ">{$vo['cid'][0][date]}</a>
+                            <a href=""class="txt2 ">{$vo['cid'][date]}</a>
                              来自 
                             <a href=""class="txt2">微博客户端</a>
                         </div>

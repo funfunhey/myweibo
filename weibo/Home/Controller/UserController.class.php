@@ -43,6 +43,14 @@ class UserController extends Controller {
                $contentinput[$key]['cid'] = $contents->field(array('id','content','uid','position','date','username','production','photo'))->where('content.id=%d',$value['cid'])->find();
                $contentinput[$key]['cid']['content'] = facelook($contentinput[$key]['cid']['content'],__ROOT__,__MODULE__);
                $contentinput[$key]['cid']['date'] = todate($contentinput[$key]['cid']['date']);
+               if ($contentinput[$key]['cid']['position'] !== 0) {
+                    $contentinput[$key]['cid']['filename'] = filename($contentinput[$key]['cid']['uid'],$contentinput[$key]['cid']['position']);
+                    $contentinput[$key]['cid']['filenamecount'] = count($contentinput[$key]['cid']['filename']);
+                }
+            }
+             if ($value['position'] !== 0) {
+                $contentinput[$key]['filename'] = filename($value['uid'],$value['position']);
+                 $contentinput[$key]['filenamecount'] = count($contentinput[$key]['filename']);
             }
              $contentinput[$key]['content'] = facelook($contentinput[$key]['content'],__ROOT__,__MODULE__);
            // 评论数
