@@ -1459,7 +1459,7 @@ function in_array_case($value,$array){
 //自己写的函数 之谜一样的过滤表情和link函数
 function facelook($_string,$position,$position1){
      $_string = preg_replace('/\[([A-Za-z]{2,8})_org\]/U','<img src="'.$position.'/Public/Images/biaoqing/$1_org.gif" alt="图片" />',$_string);
-     $_string = preg_replace('/\[(\d{1,8})@([\x{4e00}-\x{9fa5}A-Za-z0-9_]{2,6})\/\]/u','<a href="'.$position1.'/User/index/id/$1" class="linkgr usercard" uid="$1">@$2 </a>',$_string);
+     $_string = preg_replace('/\[(\d{1,8})@([\x{4e00}-\x{9fa5}A-Za-z0-9_]{2,6})\/\]/u',"<a href='".$position1."/User/index/id/$1' class='linkgr usercard' uid='$1'>@$2 </a>",$_string);
      return $_string;
 }
 

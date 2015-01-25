@@ -304,90 +304,92 @@
         <div class="main">
             
                 <div class="weibo-left notfix" >
-	<div class="left-top-nav">
-		<h3 class="lefv"><a href="javascript:void(0)"><span>首页</span></a></h3>
-		<h3 class="lefv"><a href="<?php echo U('News/newsat');?>"><span>消息</span></a></h3>
-		<h3 class="lefv"><a href="javascript:void(0)"><span>收藏</span></a></h3>
-	</div>
-	<div class="lev_line">
-		<fieldset>
-			<legend><a  class="f j">J</a></legend>
-		</fieldset>
-	</div>
-	<div class="out-left-nav overf">
-		<div class="left-scroll">
-			<div class="left-nav">
-				<a href="###">
-					<span class="f"><em>C</em></span>
-					<span>好友圈</span></a>
-				<a href="###">
-					<span class="f"><em>æ</em></span>
-					<span>特别关注</span></a>
-					<a href="###">
-					<span class="f"><em>C</em></span>
-					<span>好友圈</span></a>
-				<a href="###">
-					<span class="f"><em>æ</em></span>
-					<span>特别关注</span></a>
-				<a href="###">
-					<span class="f"><em>C</em></span>
-					<span>好友圈</span></a>
-				<a href="###">
-					<span class="f"><em>æ</em></span>
-					<span>特别关注</span></a>
-
-				<?php if(isset($_COOKIE['id'])&&isset($_COOKIE['user'])): ?><a href="###"><span></span></a><?php endif; ?>
-			</div>
-		</div>
-		<div class="scrollbar">
-			<div class="bar"></div>
-		</div>
-	</div>
-	
-		
+    <div class="left-top-nav">
+        <h3 class="lefv"><a href="javascript:void(0)"><span>首页</span></a></h3>
+        <h3 class="lefv"><a href="<?php echo U('News/newsat');?>"><span>消息</span></a></h3>
+        <h3 class="lefv"><a href="javascript:void(0)"><span>收藏</span></a></h3>
+    </div>
+    <div class="lev_line">
+        <fieldset>
+            <legend><a  class="f j">J</a></legend>
+        </fieldset>
+    </div>
+    <div class="out-left-nav overf">
+        <div class="left-scroll" id="left-scroll">
+            <div class="left-nav" id="left-nav">
+                <a href="###">
+                <span class="f"><em>C</em></span>
+                <span>好友圈</span>
+                </a>
+                <a href="###">
+                <span class="f"><em>æ</em></span>
+                <span>特别关注</span>
+                </a>
+                <a href="###">
+                <span class="f"><em>C</em></span>
+                <span>好友圈</span></a>
+                <a href="###">
+                <span class="f"><em>æ</em></span>
+                <span>特别关注</span>
+                </a>
+                <a href="###">
+                <span class="f"><em>C</em></span>
+                <span>好友圈</span>
+                </a>
+                <a href="###">
+                <span class="f"><em>æ</em></span>
+                <span>特别关注</span></a>
+                <?php if(isset($_COOKIE['id'])&&isset($_COOKIE['user'])): ?><a href="###"><span></span></a><?php endif; ?>
+            </div>
+        </div>
+        <div class="scrollbar" id="scrollbar">
+            <div class="bar" id="bar_block"></div>
+        </div>
+    </div>
 </div>    
                 <div class="weibo-left forfix" >
-	<div class="left-top-nav">
-		<h3 class="lefv"><a href="javascript:void(0)"><span>首页</span></a></h3>
-		<h3 class="lefv"><a href="<?php echo U('News/newsat');?>"><span>消息</span></a></h3>
-		<h3 class="lefv"><a href="javascript:void(0)"><span>收藏</span></a></h3>
-	</div>
-	<div class="lev_line">
-		<fieldset>
-			<legend><a  class="f j">J</a></legend>
-		</fieldset>
-	</div>
-	<div class="out-left-nav overf">
-		<div class="left-scroll">
-			<div class="left-nav">
-				<a href="###">
-					<span class="f"><em>C</em></span>
-					<span>好友圈</span></a>
-				<a href="###">
-					<span class="f"><em>æ</em></span>
-					<span>特别关注</span></a>
-					<a href="###">
-					<span class="f"><em>C</em></span>
-					<span>好友圈</span></a>
-				<a href="###">
-					<span class="f"><em>æ</em></span>
-					<span>特别关注</span></a>
-				<a href="###">
-					<span class="f"><em>C</em></span>
-					<span>好友圈</span></a>
-				<a href="###">
-					<span class="f"><em>æ</em></span>
-					<span>特别关注</span></a>
-
-				<?php if(isset($_COOKIE['id'])&&isset($_COOKIE['user'])): ?><a href="###"><span></span></a><?php endif; ?>
-			</div>
-		</div>
-		<div class="scrollbar">
-			<div class="bar"></div>
-		</div>
-	</div>
-	
-		
+    <div class="left-top-nav">
+        <h3 class="lefv"><a href="javascript:void(0)"><span>首页</span></a></h3>
+        <h3 class="lefv"><a href="<?php echo U('News/newsat');?>"><span>消息</span></a></h3>
+        <h3 class="lefv"><a href="javascript:void(0)"><span>收藏</span></a></h3>
+    </div>
+    <div class="lev_line">
+        <fieldset>
+            <legend><a  class="f j">J</a></legend>
+        </fieldset>
+    </div>
+    <div class="out-left-nav overf">
+        <div class="left-scroll" id="left-scroll">
+            <div class="left-nav" id="left-nav">
+                <a href="###">
+                <span class="f"><em>C</em></span>
+                <span>好友圈</span>
+                </a>
+                <a href="###">
+                <span class="f"><em>æ</em></span>
+                <span>特别关注</span>
+                </a>
+                <a href="###">
+                <span class="f"><em>C</em></span>
+                <span>好友圈</span></a>
+                <a href="###">
+                <span class="f"><em>æ</em></span>
+                <span>特别关注</span>
+                </a>
+                <a href="###">
+                <span class="f"><em>C</em></span>
+                <span>好友圈</span>
+                </a>
+                <a href="###">
+                <span class="f"><em>æ</em></span>
+                <span>特别关注</span></a>
+                <?php if(isset($_COOKIE['id'])&&isset($_COOKIE['user'])): ?><a href="###"><span></span></a><?php endif; ?>
+            </div>
+        </div>
+        <div class="scrollbar" id="scrollbar">
+            <div class="bar" id="bar_block"></div>
+        </div>
+    </div>
 </div>
 
             <script src="/weibo/Public/Js/jq_content.js" type="text/javascript" charset="utf-8" async defer></script>
@@ -644,7 +646,7 @@
     <div class="expand_media">
         <div class="tab_clearfix">
             <div class="taba">
-                <ul class="overf">
+                <ul class="overf f12">
                     <li>
                         <span class="line2">
                             <a href="javascript:void(0)" class="shouqi">
@@ -723,7 +725,7 @@
     <div class="expand_media">
         <div class="tab_clearfix">
             <div class="taba">
-                <ul class="overf">
+                <ul class="overf f12">
                     <li>
                         <span class="line2">
                             <a href="javascript:void(0)" class="shouqi">
@@ -1070,7 +1072,7 @@
     <div class="expand_media">
         <div class="tab_clearfix">
             <div class="taba">
-                <ul class="overf">
+                <ul class="overf f12">
                     <li>
                         <span class="line2">
                             <a href="javascript:void(0)" class="shouqi">
@@ -1149,7 +1151,7 @@
     <div class="expand_media">
         <div class="tab_clearfix">
             <div class="taba">
-                <ul class="overf">
+                <ul class="overf f12">
                     <li>
                         <span class="line2">
                             <a href="javascript:void(0)" class="shouqi">
@@ -1369,7 +1371,7 @@
                 <span class="list">
                     <div class="pagelist boxstyle">
                         <ul>
-                        <?php $__FOR_START_32533__=$page;$__FOR_END_32533__=0;for($i=$__FOR_START_32533__;$i > $__FOR_END_32533__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/Index/index/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
+                        <?php $__FOR_START_12308__=$page;$__FOR_END_12308__=0;for($i=$__FOR_START_12308__;$i > $__FOR_END_12308__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/Index/index/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
                             <?php else: ?>
                             <li><a href="/weibo/index.php/Home/Index/index/page/<?php echo ($i); ?>/id/<?php echo ($_GET['id']); ?>">第<?php echo ($i); ?>页</a></li><?php endif; } ?>
                         </ul>

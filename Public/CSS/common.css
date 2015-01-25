@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2014-12-12 16:46:14
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-01-23 16:37:13
+* @Last Modified time: 2015-01-24 19:23:29
 */
 @font-face {
     font-family:'yahei';
@@ -47,9 +47,6 @@ ul ,dd,dl{
     padding: 0;
     margin: 0;
 }
-li{
-    /*text-align:0;*/
-}
 p,h4{
     margin: 0;
 }
@@ -57,7 +54,6 @@ em{
     font-style: normal;
 }
 a{
-    /*color: #368da7;*/
     text-decoration:none;
     cursor: auto;    
 }
@@ -2294,5 +2290,5 @@ span.ico{
     cursor: url(../Images/small.cur),auto;
 }
 .colorline{
-    border :1px solid #ff8140;
+    border :2px solid #ff8140;
 }
