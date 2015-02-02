@@ -1,0 +1,39 @@
+/* 
+* @Author: anchen
+* @Date:   2015-01-25 21:35:07
+* @Last Modified by:   anchen
+* @Last Modified time: 2015-01-26 11:05:19
+*/
+
+body {
+    background-image: url(../Images/ab.png);
+}
+fieldset {
+    width: 300px;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    border:1px solid #d9d9d9;
+}
+
+label {
+    display: inline-block;
+    margin: 5px;
+}
+input {
+    border: 1px solid #d9d9d9;
+    height: 25px;
+}
+.addphoto{
+    background: url(../Images/sina.jpg) no-repeat  0px -80px;;
+    display: block;
+    width: 500px;
+    height: 400px;
+
+}
+span.error {
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 0 -4px 65px;
+    color: deeppink;
+}

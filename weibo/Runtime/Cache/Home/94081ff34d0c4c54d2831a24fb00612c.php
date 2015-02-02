@@ -117,6 +117,7 @@
     var INDEX = "/weibo/index.php/Home/Index/";
 	var USER = "/weibo/index.php/Home/User/";
     var NEWS = "/weibo/index.php/Home/News/";
+    var PUBLIC = "/weibo/Public";
 	var ROOT = "/weibo";
 	var VERIFY = "<?php echo U('Common/verify');?>";
 	var PICTURE = "/weibo/<?php echo ($pictures); ?>";
@@ -226,6 +227,73 @@
 <!-- 背景遮罩 -->
 <div id="background" class="hidden"></div>
 
+<div class="usercardload">
+    <div class="boxstyle">
+        <div class="loadinga f12">
+            正在加载中，请稍候.....
+        </div>
+    </div>
+</div>
+<div class="pop_usercard f12">
+    <div class="boxstyle">
+        <div class="personcard">
+            <div>
+                <div style="background-image:url(/weibo/Public/Images/t.jpg)" class="nc_head overf">
+                    <div class="pic_box">
+                        <a href="#" class="WB_face">
+                            <img src="/weibo/Public/Images/0.jpg" alt="" width="50" height="50"  />
+                        </a>
+                        <a href="">
+                            <i></i>
+                        </a>
+                    </div>
+                    <div class="mask">
+                        <div class="name">
+                            <a href="" class="namename"></a>
+                            <span class="remark">
+                                (<a href="javascript:void(0)">设置备注</a>)
+                            </span>
+                            <em class="f"></em>
+                            <a href="" title="huiyuan">
+                                <i></i>
+                            </a>
+                        </div>
+                        <div class="autocut">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="nc_content">
+                    <div class="count fw">
+                        
+                    </div>
+                    
+                    
+                    <div class="usercardinfo">
+                        <ul>
+                            <li class="info_li  h15">
+                                <a href="">北京</a>
+                            </li>
+                            <!--<li class="info_li h15">
+                                <em class="c8080">就职于</em>
+                                <a href="" class="h15">人民日报</a>
+                            </li>-->
+                        </ul>
+                    </div>
+                    <div class="c_btnbox h25">
+                        <a href="javascript:void(0)" class="btn-focus">
+                            
+                        </a>
+                        <a href="javascript:void(0)" class="btn-msg ">私信</a>
+                        <a href="javascript:void(0)" class="btn-menu ">
+                            <em class="f">=</em>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     </div>
     <div class="userframe">
         <div class="userframea">
@@ -472,7 +540,7 @@
             </div>
         
             <div class="focus ">
-                <p action-data="<?php echo ($v["id"]); ?>"><a href="javascript:void(0)"><em class="f">+</em>关注</a></p>
+                <p action-data="<?php echo ($v["id"]); ?>" class="focus-friend"><a href="javascript:void(0)" ><em class="f">+</em>关注</a></p>
             </div><?php endif; ?>
         <?php if(!empty($yigz)): ?><div class="info_from">
                 通过 <a href="">微博 weibo.com</a>关注
@@ -500,7 +568,7 @@
                             <a href="/weibo/index.php/Home/User/userfocus/page/<?php echo ($pagepre); ?>" class="page_dis line5">
                                 <span>上一页</span>
                             </a>
-                            <?php $__FOR_START_25050__=1;$__FOR_END_25050__=$page+1;for($i=$__FOR_START_25050__;$i < $__FOR_END_25050__;$i+=1){ ?><a href="/weibo/index.php/Home/User/userfocus/page/<?php echo ($i); ?>" class="page_s"><?php echo ($i); ?></a><?php } ?>
+                            <?php $__FOR_START_13525__=1;$__FOR_END_13525__=$page+1;for($i=$__FOR_START_13525__;$i < $__FOR_END_13525__;$i+=1){ ?><a href="/weibo/index.php/Home/User/userfocus/page/<?php echo ($i); ?>" class="page_s"><?php echo ($i); ?></a><?php } ?>
                             <a href="/weibo/index.php/Home/User/userfocus/page/<?php echo ($pagenext); ?>" class="page_cis line2">
                                 <span>下一页</span>
                             </a>
@@ -630,7 +698,7 @@
                 <div class="list-box overf">
                     <div class="face_list">
                         <ul>
-                            <li title="债见" data="[88_org]"><img src="/weibo/Public/Images/biaoqing/88_org.gif" alt="" /></li>
+                            <li title="债见" data="[bye_org]"><img src="/weibo/Public/Images/biaoqing/bye_org.gif" alt="" /></li>
                             <li title="惊讶 " data="[cj_org]"><img src="/weibo/Public/Images/biaoqing/cj_org.gif" alt="" /></li>
                             <li title="可恶" data="[crazya_org]"><img src="/weibo/Public/Images/biaoqing/crazya_org.gif" alt="" /></li>
                             <li title="晕" data="[dizzya_org]"><img src="/weibo/Public/Images/biaoqing/dizzya_org.gif" alt="" /></li>
@@ -665,8 +733,8 @@
 </div>
 
  -->
-<div class="bottom">
 
+<div class="bottom">
 <?php if(is_array(C("bottom"))): foreach(C("bottom") as $key=>$bo): echo ($bo); ?>　<?php endforeach; endif; ?>
 
 <div><?php echo (C("copy")); ?></div>

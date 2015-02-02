@@ -553,7 +553,7 @@
     <div class="expand_media">
         <div class="tab_clearfix">
             <div class="taba">
-                <ul class="overf">
+                <ul class="overf f12">
                     <li>
                         <span class="line2">
                             <a href="javascript:void(0)" class="shouqi">
@@ -632,7 +632,7 @@
     <div class="expand_media">
         <div class="tab_clearfix">
             <div class="taba">
-                <ul class="overf">
+                <ul class="overf f12">
                     <li>
                         <span class="line2">
                             <a href="javascript:void(0)" class="shouqi">
@@ -964,16 +964,165 @@
                         <div class="txt1 f12 content">
                             <?php echo ($vo['cid'][0][content]); ?>
                         </div>
-                         <!--   <div class="WB_photo_list">
-                            <div class="photo_box">
-                                <ul>
-                                    <li><img src="" alt="" />
-                                        <i class="loading"></i>
-                                    </li>
-                                   
-                                </ul>
+                         <?php if(($vo["filenamecount"]) != "1"): ?><div class="WB_photo_list overf">
+                                <div class="photo_box">
+                                    <ul>
+                                    <?php if(is_array($vo['cid'][0]['filename'])): foreach($vo['cid'][0]['filename'] as $key=>$fo): ?><li>
+                                            <img src='/weibo/Uploads/Public/<?php echo ($vo['cid'][0]['uid']); ?>/contentsmall/<?php echo ($vo['cid'][0]['position']); ?>/<?php echo ($fo); ?>' asrc='/weibo/Uploads/Public/<?php echo ($vo['cid'][0]['uid']); ?>/contentmiddle/<?php echo ($vo['cid'][0]['position']); ?>/<?php echo ($fo); ?>' alt="" uid='<?php echo ($vo['cid'][0]['uid']); ?>' pid='<?php echo ($vo['cid'][0]['position']); ?>' fid='<?php echo ($fo); ?>'/>
+                                        
+                                        </li><?php endforeach; endif; ?> 
+
+                                    </ul>
+                                </div>
                             </div>
-                        </div> -->
+                            <div class="expand_media_box">
+    <div class="expand_media">
+        <div class="tab_clearfix">
+            <div class="taba">
+                <ul class="overf f12">
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="shouqi">
+                                <i class="f">k</i>
+                                收起
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)">
+                                <i class="f">f</i>
+                                查看大图
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="rotatel">
+                                <i class="f">m</i>
+                                向左旋转
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="rotater">
+                                <i class="f">n</i>
+                                向右旋转
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bigimgdiv overf">
+            <ul>
+                <li >
+                    <div class="artwork">
+                        <div class="imgspan">
+                              <img src="" id="" alt="" width="440" />                       
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="pic_choose">
+            <a href="javascript:void(0)" class="curleft bg2">
+                <i class="f fccc">b</i>
+
+            </a>
+            <div class="stage_box">
+                <ul class="picchoose">
+                  
+                </ul>
+            </div>
+            <a href="javascript:void(0)" class="curright bg2">
+                <i class="f">a</i>
+            </a>
+        </div>
+        </div>
+        
+    </div>
+</div><?php endif; ?>
+                            <?php if(($vo["filenamecount"]) == "1"): ?><div class="WB_photo_list overf">
+                                    <div class="photo_box1">
+                                        <ul>
+                                        <?php if(is_array($vo['cid'][0]['filename'])): foreach($vo['cid'][0]['filename'] as $key=>$fo): ?><li>
+                                                <img src='/weibo/Uploads/Public/<?php echo ($vo['cid'][0]['uid']); ?>/contentsmall/<?php echo ($vo['cid'][0]['position']); ?>/<?php echo ($fo); ?>' asrc='/weibo/Uploads/Public/<?php echo ($vo['cid'][0]['uid']); ?>/contentmiddle/<?php echo ($vo['cid'][0]['position']); ?>/<?php echo ($fo); ?>' alt="" uid='<?php echo ($vo['cid'][0]['uid']); ?>' pid='<?php echo ($vo['cid'][0]['position']); ?>' fid='<?php echo ($fo); ?>'/>
+                                            
+                                            </li><?php endforeach; endif; ?> 
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="expand_media_box">
+    <div class="expand_media">
+        <div class="tab_clearfix">
+            <div class="taba">
+                <ul class="overf f12">
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="shouqi">
+                                <i class="f">k</i>
+                                收起
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)">
+                                <i class="f">f</i>
+                                查看大图
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="rotatel">
+                                <i class="f">m</i>
+                                向左旋转
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="line2">
+                            <a href="javascript:void(0)" class="rotater">
+                                <i class="f">n</i>
+                                向右旋转
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bigimgdiv overf">
+            <ul>
+                <li >
+                    <div class="artwork">
+                        <div class="imgspan">
+                              <img src="" id="" alt="" width="440" />                       
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="pic_choose">
+            <a href="javascript:void(0)" class="curleft bg2">
+                <i class="f fccc">b</i>
+
+            </a>
+            <div class="stage_box">
+                <ul class="picchoose">
+                  
+                </ul>
+            </div>
+            <a href="javascript:void(0)" class="curright bg2">
+                <i class="f">a</i>
+            </a>
+        </div>
+        </div>
+        
+    </div>
+</div><?php endif; ?>
+                        </neq> 
                         <div class="WB_from txt2 f12">
                             <a href=""class="txt2 "><?php echo ($vo['cid'][0][date]); ?></a>
                              来自 
@@ -1129,7 +1278,7 @@
                 <span class="list">
                     <div class="pagelist boxstyle">
                         <ul>
-                        <?php $__FOR_START_7119__=$page;$__FOR_END_7119__=0;for($i=$__FOR_START_7119__;$i > $__FOR_END_7119__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/News/newsat/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
+                        <?php $__FOR_START_12512__=$page;$__FOR_END_12512__=0;for($i=$__FOR_START_12512__;$i > $__FOR_END_12512__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/News/newsat/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
                             <?php else: ?>
                             <li><a href="/weibo/index.php/Home/News/newsat/page/<?php echo ($i); ?>/id/<?php echo ($_GET['id']); ?>">第<?php echo ($i); ?>页</a></li><?php endif; } ?>
                         </ul>

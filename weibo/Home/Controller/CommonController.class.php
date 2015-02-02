@@ -99,6 +99,30 @@ class CommonController extends controller
         }
 
     }
+        public function fixfans(){
+        $user = M('user');
+        $friend = M('friend');
+        $uid = $user->getField('id',true);
+        //var_dump($uid);
+        foreach ($uid as $key => $value) {
+            $fans = $friend->where('touser=%d',$value)->count('id');
+            $data['fans'] = $fans;
+             $user->where('id=%d',$value)->save($data);
+        }
+
+    }
+    public function fixfocus(){
+        $user = M('user');
+        $friend = M('friend');
+        $uid = $user->getField('id',true);
+        //var_dump($uid);
+        foreach ($uid as $key => $value) {
+            $fans = $friend->where('fromuser=%d',$value)->count('id');
+            $data['focus'] = $fans;
+             $user->where('id=%d',$value)->save($data);
+        }
+
+    }
 
     // 微博提交
     public function content(){

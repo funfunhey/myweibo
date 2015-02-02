@@ -117,6 +117,7 @@
     var INDEX = "/weibo/index.php/Home/Index/";
 	var USER = "/weibo/index.php/Home/User/";
     var NEWS = "/weibo/index.php/Home/News/";
+    var PUBLIC = "/weibo/Public";
 	var ROOT = "/weibo";
 	var VERIFY = "<?php echo U('Common/verify');?>";
 	var PICTURE = "/weibo/<?php echo ($pictures); ?>";
@@ -226,6 +227,13 @@
 <!-- 背景遮罩 -->
 <div id="background" class="hidden"></div>
 
+<div class="usercardload">
+    <div class="boxstyle">
+        <div class="loadinga f12">
+            正在加载中，请稍候.....
+        </div>
+    </div>
+</div>
 <div class="pop_usercard f12">
     <div class="boxstyle">
         <div class="personcard">
@@ -241,7 +249,7 @@
                     </div>
                     <div class="mask">
                         <div class="name">
-                            <a href=""uid="01">renren </a>
+                            <a href="" class="namename"></a>
                             <span class="remark">
                                 (<a href="javascript:void(0)">设置备注</a>)
                             </span>
@@ -251,51 +259,30 @@
                             </a>
                         </div>
                         <div class="autocut">
-                            <span>
-                                简介：XXX法人微博
-                            </span>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="nc_content">
                     <div class="count fw">
-                        <span class="c_follow ">
-                            <a href="" target="_blank">
-                                关注
-                                <em>674</em>
-                            </a>
-                        </span>
-                        <span class="c_follow">
-                            <a href="" target="_blank">
-                                粉丝 
-                                <em>674</em>
-                            </a>
-                        </span>
-                        <span class="c_follow">
-                            <a href="" target="_blank">
-                                微博
-                                <em>674</em>
-                            </a>
-                        </span>  
+                        
                     </div>
                     
                     
                     <div class="usercardinfo">
                         <ul>
                             <li class="info_li  h15">
-                                <a href="">beijing</a>
+                                <a href="">北京</a>
                             </li>
-                            <li class="info_li h15">
+                            <!--<li class="info_li h15">
                                 <em class="c8080">就职于</em>
                                 <a href="" class="h15">人民日报</a>
-                            </li>
+                            </li>-->
                         </ul>
                     </div>
                     <div class="c_btnbox h25">
                         <a href="javascript:void(0)" class="btn-focus">
-                            <em class="f">Y</em>
-                            已关注
-                            <em class="f">g</em>
+                            
                         </a>
                         <a href="javascript:void(0)" class="btn-msg ">私信</a>
                         <a href="javascript:void(0)" class="btn-menu ">

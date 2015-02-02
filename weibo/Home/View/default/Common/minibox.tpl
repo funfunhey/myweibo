@@ -25,7 +25,7 @@
             </div>
         
             <div class="focus ">
-                <p action-data="[uid]"><a href="javascript:void(0)"><em class="f">+</em>关注</a></p>
+                <p action-data="[uid]" class="focus-friend"><a href="javascript:void(0)" ><em class="f">+</em>关注</a></p>
             </div>        
         </notempty>
         <notempty name="yigz">

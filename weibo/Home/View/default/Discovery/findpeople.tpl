@@ -2,7 +2,7 @@
 <block name="midtop">
     <div class="advert bg">
         <div class="hover">
-            <div class="pic_box">
+            <div class="pic_box1">
                 <p>
                     <a href="">
                         <img src="__PUBLIC__/Images/faxian/ad.jpg" alt="" />

@@ -1,0 +1,263 @@
+[ 2015-01-27T09:08:12+08:00 ] ::1 /weibo/index.php/Home/Index/focus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.021001s ]
+SQL: DESCRIBE think_friend [ RunTime:0.022000s ]
+SQL: SELECT `touser` FROM `think_friend` WHERE ( fromuser=35 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 107 行.
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-27T09:08:15+08:00 ] ::1 /weibo/index.php/Home/Index/fans
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.022000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: SELECT `fromuser` FROM `think_friend` WHERE ( touser=35 )  [ RunTime:0.002000s ]
+SQL: SELECT `touser` FROM `think_friend` WHERE ( fromuser=35 )  [ RunTime:0.020000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 99 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2015-01-27T09:08:16+08:00 ] ::1 /weibo/index.php/Home/Index/atuser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.019001s ]
+SQL: DESCRIBE think_friend [ RunTime:0.017000s ]
+SQL: SELECT `touser` FROM `think_friend` WHERE ( fromuser=35 )  [ RunTime:0.002000s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\WWW\weibo\ThinkPHP\Library\Think\Db.class.php 第 497 行.
+SQL: SELECT `username` FROM `think_user` WHERE `id` IN ()  [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE `id` IN () 
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-01-27T09:08:17+08:00 ] ::1 /weibo/index.php/Home/Common/askat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.018001s ]
+SQL: SELECT atnewcon,atnewcom,comment FROM `think_user` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: commment D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 413 行.
+
+[ 2015-01-27T09:09:08+08:00 ] ::1 /weibo/index.php/Home/Index/fans
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.017000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: SELECT `fromuser` FROM `think_friend` WHERE ( touser= )  [ RunTime:0.002000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `fromuser` FROM `think_friend` WHERE ( touser= ) 
+SQL: SELECT `touser` FROM `think_friend` WHERE ( fromuser= )  [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `touser` FROM `think_friend` WHERE ( fromuser= ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 99 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-27T09:09:09+08:00 ] ::1 /weibo/index.php/Home/Common/askat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.016000s ]
+SQL: SELECT atnewcon,atnewcom,comment FROM `think_user` WHERE ( id=%d ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT atnewcon,atnewcom,comment FROM `think_user` WHERE ( id=%d ) LIMIT 1  
+
+[ 2015-01-27T09:09:10+08:00 ] ::1 /weibo/index.php/Home/Index/atuser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+SQL: DESCRIBE think_user [ RunTime:0.020000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.016000s ]
+SQL: SELECT `touser` FROM `think_friend` WHERE ( fromuser= )  [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `touser` FROM `think_friend` WHERE ( fromuser= ) 
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\WWW\weibo\ThinkPHP\Library\Think\Db.class.php 第 497 行.
+SQL: SELECT `username` FROM `think_user` WHERE `id` IN ()  [ RunTime:0.002000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE `id` IN () 
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-27T09:09:11+08:00 ] ::1 /weibo/index.php/Home/Index/focus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.017000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015001s ]
+SQL: SELECT `touser` FROM `think_friend` WHERE ( fromuser= )  [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `touser` FROM `think_friend` WHERE ( fromuser= ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 107 行.
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-27T09:09:47+08:00 ] ::1 /weibo/index.php/Home/Index/focus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.009000s ]
+SQL: SELECT `touser` FROM `think_friend` WHERE ( fromuser=14 )  [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-27T09:09:49+08:00 ] ::1 /weibo/index.php/Home/Index/fans
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.015000s ]
+SQL: SELECT `fromuser` FROM `think_friend` WHERE ( touser=14 )  [ RunTime:0.004001s ]
+SQL: SELECT `touser` FROM `think_friend` WHERE ( fromuser=14 )  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 99 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-27T09:09:50+08:00 ] ::1 /weibo/index.php/Home/Common/askat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT atnewcon,atnewcom,comment FROM `think_user` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: commment D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 413 行.
+
+[ 2015-01-27T09:09:51+08:00 ] ::1 /weibo/index.php/Home/Index/atuser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.009001s ]
+SQL: SELECT `touser` FROM `think_friend` WHERE ( fromuser=14 )  [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `think_user` WHERE `id` IN ('18','19','7','5','9','8','12','13','10','15','17','16')  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-27T09:29:03+08:00 ] ::1 /weibo/index.php/Home/Index/focus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.009000s ]
+SQL: SELECT `touser` FROM `think_friend` WHERE ( fromuser=14 )  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-27T09:29:04+08:00 ] ::1 /weibo/index.php/Home/Common/askat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT atnewcon,atnewcom,comment FROM `think_user` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: commment D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 413 行.
+
+[ 2015-01-27T09:29:05+08:00 ] ::1 /weibo/index.php/Home/Index/fans
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_user [ RunTime:0.022000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.027001s ]
+SQL: SELECT `fromuser` FROM `think_friend` WHERE ( touser=14 )  [ RunTime:0.002000s ]
+SQL: SELECT `touser` FROM `think_friend` WHERE ( fromuser=14 )  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 99 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-27T09:29:07+08:00 ] ::1 /weibo/index.php/Home/Index/atuser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: DESCRIBE think_user [ RunTime:0.009000s ]
+SQL: DESCRIBE think_friend [ RunTime:0.009000s ]
+SQL: SELECT `touser` FROM `think_friend` WHERE ( fromuser=14 )  [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `think_user` WHERE `id` IN ('18','19','7','5','9','8','12','13','10','15','17','16')  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\IndexController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-27T10:45:42+08:00 ] ::1 /weibo/index.php/Home/Common//showcomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_comment [ RunTime:0.009000s ]
+SQL: DESCRIBE think_user [ RunTime:0.011000s ]
+SQL: SELECT comment.id AS commentid,comment.comment AS comment,comment.date AS date,comment.uid AS uid,comment.cid AS cid,user.photo AS photo,user.username AS username FROM think_comment comment LEFT JOIN think_user user ON user.id=comment.uid WHERE ( cid=351 ) ORDER BY comment.id desc LIMIT 10   [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: key D:\WWW\weibo\ThinkPHP\Common\functions.php 第 1472 行.
+NOTIC: [8] Undefined variable: key D:\WWW\weibo\ThinkPHP\Common\functions.php 第 1483 行.
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 379 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-27T10:47:52+08:00 ] ::1 /weibo/index.php/Home/Common/showusercard
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE think_user [ RunTime:0.010000s ]
+SQL: SELECT `id`,`production`,`photo`,`username`,`focus`,`fans`,`contentcount` FROM `think_user` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 164 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-27T10:48:26+08:00 ] ::1 /weibo/index.php/Home/Common/showusercard
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_user [ RunTime:0.022001s ]
+SQL: SELECT `id`,`production`,`photo`,`username`,`focus`,`fans`,`contentcount` FROM `think_user` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 164 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-01-27T10:52:44+08:00 ] ::1 /weibo/index.php/Home/Common/showusercard
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE think_user [ RunTime:0.019001s ]
+SQL: SELECT `id`,`production`,`photo`,`username`,`focus`,`fans`,`contentcount` FROM `think_user` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 164 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-01-27T10:52:47+08:00 ] ::1 /weibo/index.php/Home/Common/showusercard
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE think_user [ RunTime:0.009000s ]
+SQL: SELECT `id`,`production`,`photo`,`username`,`focus`,`fans`,`contentcount` FROM `think_user` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: json D:\WWW\weibo\weibo\Home\Controller\CommonController.class.php 第 164 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
