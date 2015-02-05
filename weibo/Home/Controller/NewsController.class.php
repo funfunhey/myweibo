@@ -15,7 +15,7 @@ class NewsController extends Controller
         public function newsatcomment(){
          $user              = M('user');
          $news              = M('news');
-         $comments          = d('CommentView');
+         $comments          = D('CommentView');
          $uid               = cookie('uid');
 
          $this->username    = cookie('username');
@@ -28,7 +28,7 @@ class NewsController extends Controller
 
         // 显示微博
          $wheref['uid']      = $uid;
-         $newsatid           = $news->where($wheref)->order('id desc')->getField('comid',true);
+         $newsatid           = $news->field('comid')->where($wheref)->order('id desc')->find();
          $contents           = D("IndexView");
          $newscount          = $news->where($wheref)->count();
          $newscount          >=100 ? $this->page = 10 : $this->page = ceil($contentcount/10);
@@ -38,21 +38,24 @@ class NewsController extends Controller
         if( $pages <= 0 || $pages > $this->page || !is_numeric($pages) ||$pages == -0 || !$pages) {
           $pages = 1;
         }
-         $where2['id']    = array('IN',$newsatid);
-         $contentinput    = $comments->field(array('id','content','uid','position','date','username','production','photo','cid',))->where($where2)->page($pages.',10')->select();
+         $wheres['comment.id']    = array('in',$newsatid);
+         $contentinput    = $comments->field(array('id','comment','uid','position','date','username','production','photo','cid','commentid'))->where($wheres)->order('commentid desc')->page($pages.',10')->select();
+         
          $this->pages     = $pages;
          $this->page_pre  = $pages-1;
          $this->page_next = $pages+1;
 
 
          foreach ($contentinput as $key => $value) {
-            $contentinput[$key]['content'] = facelook($contentinput[$key]['content'],__ROOT__,__MODULE__);
+            $contentinput[$key]['comment'] = facelook($contentinput[$key]['comment'],__ROOT__,__MODULE__);
+            $contentinput[$key]['cid'] = $contents->field(array('content','uid','username'))->where('content.id = %d',$value['cid'])->find();
             //转日期
             $contentinput[$key]['date']    = todate($value['date']);
           }
 
         $this->index        = true;
         $this->contentinput = $contentinput;
+        $this->concominput = $concominput;
         $this->display();
     }
 
@@ -179,7 +182,7 @@ class NewsController extends Controller
         if( $pages <= 0 || $pages > $this->page || !is_numeric($pages) ||$pages == -0 || !$pages) {
           $pages = 1;
         }
-         $contentinput = $comments->field(array('id','comment','uid','position','date','username','production','photo','cid',))->where('uid=%d',$cookieid)->page($pages.',10')->select();
+         $contentinput = $comments->field(array('id','comment','uid','position','date','username','production','photo','cid'))->where('uid=%d',$cookieid)->page($pages.',10')->select();
         $this->pages     = $pages;
         $this->page_pre  = $pages-1;
         $this->page_next = $pages+1;
@@ -187,15 +190,16 @@ class NewsController extends Controller
 
          foreach ($contentinput as $key => $value) {
             $contentinput[$key]['content']        = facelook($contentinput[$key]['content'],__ROOT__,__MODULE__);
-            $contentinput[$key]['cid']            = $contents->field(array('id','content','uid','username'))->where('content.id=%d',$value['cid'])->limit(1)->select();
+            $contentinput[$key]['ccid']            = $contents->field(array('id','content','uid','username'))->where('content.id=%d',$value['cid'])->find();
             $contentinput[$key]['cid']['content'] = facelook($contentinput[$key]['cid']['content'],__ROOT__,__MODULE__);
 
             //转日期
             $contentinput[$key]['date'] = todate($value['date']);
+            $contentinput[$key]['comment'] = facelook($contentinput[$key]['comment'],__ROOT__,__MODULE__);
         }
         $this->contentinput = $contentinput;
         //var_dump($this->contentinput);
-        $this->display();
+         $this->display();
     }
     public function newsmsg(){
         $this->display();

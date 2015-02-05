@@ -54,7 +54,7 @@
 </block>
 
 <block name="main">
-<include file="News/commentreply" picture='{$picture}' username='{$Think.cookie.username}' contentinput="contentinput"/>
+<include file="News/commentreply" picture='{$picture}' username='{$Think.cookie.username}' contentinput="contentinput" what="atcomment"/>
   
 </block>
 

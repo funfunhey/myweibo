@@ -16,6 +16,9 @@
             <eq name="var" value="notmine">
                 <a href=""><img src='__ROOT__/{$vo.photo}'  height="50" width="50"alt="" /></a>
             </eq>
+            <eq name="var" value="atcomment">
+                <a href=""><img src='__ROOT__/{$vo.photo}'  height="50" width="50"alt="" /></a>
+            </eq>
             </div>
         </div>
         <div class="WB_detail">
@@ -30,6 +33,11 @@
                 <a href="" class=""><i></i></a>
                 <a href="" class=""><i></i></a>
             </eq>
+            <eq name="var" value="atcomment">
+                <a href=""style="color:#333;font-size:14px;">{$vo.username}</a>
+                <a href="" class=""><i></i></a>
+                <a href="" class=""><i></i></a>
+            </eq>
             </div>
             <div class="WB_txt">
                {$vo.comment}
@@ -38,12 +46,34 @@
             <div class="feed_expand">
                 <div class="expand2 bg1">
                         <eq name="var" value="mine">
-                        <div class="txt1">
-                            评论{$vo['cid'][0]['username']}的微博：
+
+                        <empty name="vo['ccid']">
+                        <div class="txt1"> 
+                            该微博已被删除
+                        </div>
+                        <else />
+                        <div class="txt1"> 
+                            评论{$vo['ccid']['username']}的微博：
                             <a href="javascript:void(0)" title="" class="f333">
-                                {$vo['cid'][0]['content']}
+                                {$vo['ccid']['content']}
                             </a>
                         </div>
+                        </empty>
+                        </eq>
+                        <eq name="var" value="atcomment">
+
+                        <empty name="vo['cid']">
+                        <div class="txt1"> 
+                            该微博已被删除
+                        </div>
+                        <else />
+                        <div class="txt1"> 
+                            评论{$vo['cid']['username']}的微博：
+                            <a href="javascript:void(0)" title="" class="f333">
+                                {$vo['cid']['content']}
+                            </a>
+                        </div>
+                        </empty>
                         </eq>
                         <eq name="var" value="notmine">
                             <notpresent name="vo.toid" >

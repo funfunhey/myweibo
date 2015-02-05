@@ -22,7 +22,7 @@ class CommentViewModel extends ViewModel
         'user' =>array(
             'id','username','production','photo',
             '_on' => 'user.id=comment.uid',
-            ),  
+            ),
     );
 
 }

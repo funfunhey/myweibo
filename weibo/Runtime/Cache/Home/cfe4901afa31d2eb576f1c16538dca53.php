@@ -447,7 +447,7 @@
                         <!-- 中下部 -->
                         <div class="">
                             
-<?php if(is_array($contentinput)): foreach($contentinput as $key=>$vo): $var = '[what]'; ?>
+<?php if(is_array($contentinput)): foreach($contentinput as $key=>$vo): $var = 'atcomment'; ?>
 <div class="fixbottom" />
     <div class="content-detail bgw">
         <div class="WB_screen">
@@ -460,6 +460,7 @@
             <div class="faces WB_face_big">
             <?php if(($var) == "mine"): ?><a href=""><img src='/weibo/<?php echo ($picture); ?>'  height="50" width="50"alt="" /></a><?php endif; ?>
             <?php if(($var) == "notmine"): ?><a href=""><img src='/weibo/<?php echo ($vo["photo"]); ?>'  height="50" width="50"alt="" /></a><?php endif; ?>
+            <?php if(($var) == "atcomment"): ?><a href=""><img src='/weibo/<?php echo ($vo["photo"]); ?>'  height="50" width="50"alt="" /></a><?php endif; ?>
             </div>
         </div>
         <div class="WB_detail">
@@ -470,6 +471,9 @@
             <?php if(($var) == "notmine"): ?><a href=""style="color:#333;font-size:14px;"><?php echo ($vo["username"]); ?></a>
                 <a href="" class=""><i></i></a>
                 <a href="" class=""><i></i></a><?php endif; ?>
+            <?php if(($var) == "atcomment"): ?><a href=""style="color:#333;font-size:14px;"><?php echo ($vo["username"]); ?></a>
+                <a href="" class=""><i></i></a>
+                <a href="" class=""><i></i></a><?php endif; ?>
             </div>
             <div class="WB_txt">
                <?php echo ($vo["comment"]); ?>
@@ -477,12 +481,26 @@
 
             <div class="feed_expand">
                 <div class="expand2 bg1">
-                        <?php if(($var) == "mine"): ?><div class="txt1">
-                            评论<?php echo ($vo['cid'][0]['username']); ?>的微博：
+                        <?php if(($var) == "mine"): if(empty($vo['ccid'])): ?><div class="txt1"> 
+                            该微博已被删除
+                        </div>
+                        <?php else: ?>
+                        <div class="txt1"> 
+                            评论<?php echo ($vo['ccid']['username']); ?>的微博：
                             <a href="javascript:void(0)" title="" class="f333">
-                                <?php echo ($vo['cid'][0]['content']); ?>
+                                <?php echo ($vo['ccid']['content']); ?>
                             </a>
-                        </div><?php endif; ?>
+                        </div><?php endif; endif; ?>
+                        <?php if(($var) == "atcomment"): if(empty($vo['cid'])): ?><div class="txt1"> 
+                            该微博已被删除
+                        </div>
+                        <?php else: ?>
+                        <div class="txt1"> 
+                            评论<?php echo ($vo['cid']['username']); ?>的微博：
+                            <a href="javascript:void(0)" title="" class="f333">
+                                <?php echo ($vo['cid']['content']); ?>
+                            </a>
+                        </div><?php endif; endif; ?>
                         <?php if(($var) == "notmine"): if(!isset($vo["toid"])): ?><div class="txt1">
                                     评论我的微博：
                                     <a href="javascript:void(0)" title="" class="f333">
@@ -518,7 +536,7 @@
                 <span class="list">
                     <div class="pagelist boxstyle">
                         <ul>
-                        <?php $__FOR_START_18026__=$page;$__FOR_END_18026__=0;for($i=$__FOR_START_18026__;$i > $__FOR_END_18026__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/News/newsatcomment/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
+                        <?php $__FOR_START_6518__=$page;$__FOR_END_6518__=0;for($i=$__FOR_START_6518__;$i > $__FOR_END_6518__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/News/newsatcomment/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
                             <?php else: ?>
                             <li><a href="/weibo/index.php/Home/News/newsatcomment/page/<?php echo ($i); ?>/id/<?php echo ($_GET['id']); ?>">第<?php echo ($i); ?>页</a></li><?php endif; } ?>
                         </ul>

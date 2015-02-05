@@ -16,7 +16,7 @@ return array(
     // 设置为.tpl后缀
     'TMPL_TEMPLATE_SUFFIX'=>'.tpl',
         // 设置网站名称
-    'WEBNAME'=>'微博',
+     'WEBNAME'=>'微博',
     'DB_TYPE'=>'pdo',
     'DB_USER'=>'root',
     'DB_PWD'=>'1015',

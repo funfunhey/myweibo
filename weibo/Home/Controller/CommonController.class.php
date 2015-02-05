@@ -347,6 +347,7 @@ class CommonController extends controller
         $user        = M('user');
         $data['cid'] = I('post.cid');
         $data['uid'] = cookie('uid');
+        $news = M('news');
         $reg         = '/@([\x{4e00}-\x{9fa5}A-Za-z0-9_]{1,5})/u';
         $zjsz        = '';
         $regb        = array();
@@ -374,7 +375,7 @@ class CommonController extends controller
                    if($value && $value !== $uid){
                       //提醒@的人
                         $user->where('id=%d',$value)->setInc('atnewcom',1);
-                       $aaa = $news->data($data1)->add(); ;
+                       $aaa = $news->data($data1)->add(); 
                     }
                 }
             }
