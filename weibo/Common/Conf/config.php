@@ -31,8 +31,8 @@ return array(
 	// 设置网站名称
 	'WEBNAME'=>'微博',
 	'DB_TYPE'=>'pdo',
-    'DB_USER'=>'root',
-    'DB_PWD'=>'1015',
+    'DB_USER'=>'',
+    'DB_PWD'=>'',
     'DB_PREFIX'=>'think_',
     'DB_DSN'=>'mysql:host=localhost;dbname=thinkphp;charset=UTF8',
 	

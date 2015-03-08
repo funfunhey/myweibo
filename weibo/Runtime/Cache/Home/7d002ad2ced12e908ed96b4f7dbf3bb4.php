@@ -540,7 +540,7 @@
                 <span class="list">
                     <div class="pagelist boxstyle">
                         <ul>
-                        <?php $__FOR_START_32686__=$page;$__FOR_END_32686__=0;for($i=$__FOR_START_32686__;$i > $__FOR_END_32686__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/News/newscomment/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
+                        <?php $__FOR_START_461__=$page;$__FOR_END_461__=0;for($i=$__FOR_START_461__;$i > $__FOR_END_461__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/News/newscomment/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
                             <?php else: ?>
                             <li><a href="/weibo/index.php/Home/News/newscomment/page/<?php echo ($i); ?>/id/<?php echo ($_GET['id']); ?>">第<?php echo ($i); ?>页</a></li><?php endif; } ?>
                         </ul>

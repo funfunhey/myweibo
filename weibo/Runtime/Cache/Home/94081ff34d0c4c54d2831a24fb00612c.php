@@ -568,7 +568,7 @@
                             <a href="/weibo/index.php/Home/User/userfocus/page/<?php echo ($pagepre); ?>" class="page_dis line5">
                                 <span>上一页</span>
                             </a>
-                            <?php $__FOR_START_14009__=1;$__FOR_END_14009__=$page+1;for($i=$__FOR_START_14009__;$i < $__FOR_END_14009__;$i+=1){ ?><a href="/weibo/index.php/Home/User/userfocus/page/<?php echo ($i); ?>" class="page_s"><?php echo ($i); ?></a><?php } ?>
+                            <?php $__FOR_START_23013__=1;$__FOR_END_23013__=$page+1;for($i=$__FOR_START_23013__;$i < $__FOR_END_23013__;$i+=1){ ?><a href="/weibo/index.php/Home/User/userfocus/page/<?php echo ($i); ?>" class="page_s"><?php echo ($i); ?></a><?php } ?>
                             <a href="/weibo/index.php/Home/User/userfocus/page/<?php echo ($pagenext); ?>" class="page_cis line2">
                                 <span>下一页</span>
                             </a>

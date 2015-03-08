@@ -1274,7 +1274,7 @@
                 <span class="list">
                     <div class="pagelist boxstyle">
                         <ul>
-                        <?php $__FOR_START_10506__=$page;$__FOR_END_10506__=0;for($i=$__FOR_START_10506__;$i > $__FOR_END_10506__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/User/index/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
+                        <?php $__FOR_START_29862__=$page;$__FOR_END_29862__=0;for($i=$__FOR_START_29862__;$i > $__FOR_END_29862__;$i+=-1){ if(empty($_GET['id'])): ?><li><a href="/weibo/index.php/Home/User/index/page/<?php echo ($i); ?>">第<?php echo ($i); ?>页</a></li>
                             <?php else: ?>
                             <li><a href="/weibo/index.php/Home/User/index/page/<?php echo ($i); ?>/id/<?php echo ($_GET['id']); ?>">第<?php echo ($i); ?>页</a></li><?php endif; } ?>
                         </ul>
